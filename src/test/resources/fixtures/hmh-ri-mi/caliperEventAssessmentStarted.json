@@ -1,0 +1,36 @@
+{
+   "@context":"http://purl.imsglobal.org/ctx/caliper/v1p1",
+   "type":"AssessmentEvent",
+   "id":"urn:uuid:822fe30b-e42f-4287-805e-98ff5b9e9dea",
+   "actor":{
+      "id":"https://https://www.hmhco.com/ed/users/0f4fedbe-2227-415f-8553-40731a627171",
+      "type":"Person"
+   },
+   "action":"Started",
+   "object":{
+      "id":"RI\\/HMH-RI",
+      "type":"Assessment",
+      "name":"HMH-RI"
+   },
+   "eventTime":"2016-11-15T10:15:00.000Z",
+   "edApp":{
+      "id":"https://https://www.hmhco.com/ed",
+      "type":"SoftwareApplication",
+      "version":"v2"
+   },
+   "membership":{
+      "id":"https://https://www.hmhco.com/ed/sections/128dedbe-9927-415f-8553-40731a627f893",
+      "type":"Membership",
+      "organization":{
+         "id":"https://https://www.hmhco.com/ed/organizations/fbb79fa9-ce24-4979-beba-66c57395b0a1",
+         "type":"Organization",
+         "subOrganizationOf":{
+            "id":"https://https://www.hmhco.com/ed/organizations/7f7b4763-8b91-45ce-b7a4-e051fd79953c",
+            "type":"Organization"
+         }
+      },
+      "roles":[
+         "Learner"
+      ]
+   }
+}
