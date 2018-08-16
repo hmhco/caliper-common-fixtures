@@ -8,7 +8,7 @@
    },
    "action":"Started",
    "object":{
-      "id":"RI\\/HMH-RI",
+      "id":"61fe17b8a79f4e50b20c2a58f9fa3097",
       "type":"Assessment",
       "name":"HMH-RI"
    },
@@ -32,5 +32,10 @@
       "roles":[
          "Learner"
       ]
+   },
+   "extensions": {
+       "quizSequence": "1",
+       "isPractice": "true",
+       "startLexile": "100"
    }
 }
