@@ -1,0 +1,342 @@
+{
+  "@context": {
+    "@context": "http:\/\/purl.imsglobal.org\/ctx\/caliper\/v1p1"
+  },
+  "type": "Event",
+  "id": "urn:uuid:04ad4dd5-1f9a-4187-a72a-57024f60070d",
+  "actor": {
+    "@context": null,
+    "id": "https:\/\/www.hmhco.com\/users\/0f4fedbe-2227-415f-8553-40731a627171",
+    "type": "Person",
+    "name": "Casandra Rath",
+    "description": null,
+    "dateCreated": null,
+    "dateModified": null,
+    "extensions": null
+  },
+  "action": "Completed",
+  "object": {
+    "dateToStartOn": null,
+    "dateToSubmit": null,
+    "dateToActivate": null,
+    "dateToShow": null,
+    "@context": null,
+    "id": "https:\/\/www.hmhco.com\/readinginventory\/quiz\/668a9938c494492694390a954cc48da3",
+    "type": "Assessment",
+    "name": "readinginventory",
+    "description": "The start lexile came from Computer Test quiz # c35603f7a3434e2cb74ef14d60e70f42 taken on 2018-08-27 17:12:87",
+    "dateCreated": null,
+    "dateModified": null,
+    "extensions": {
+      "quizSequence": 13,
+      "score": -478,
+      "isPractice": false,
+      "grade": 0,
+      "recommendation": [
+        {
+          "title": "Too Much Noise",
+          "authorFirstName": "Ann",
+          "authorLastName": "McGovern",
+          "lexile": 0
+        },
+        {
+          "title": "Work and Play",
+          "authorFirstName": "Sydnie",
+          "authorLastName": "Kleinhenz",
+          "lexile": 60
+        },
+        {
+          "title": "Johnny Appleseed: My Story",
+          "authorFirstName": "David L.",
+          "authorLastName": "Harrison",
+          "lexile": 200
+        },
+        {
+          "title": "Harbor",
+          "authorFirstName": "Donald",
+          "authorLastName": "Crews",
+          "lexile": 220
+        },
+        {
+          "title": "Madam President",
+          "authorFirstName": "Lane",
+          "authorLastName": "Smith",
+          "lexile": 230
+        },
+        {
+          "title": "Night Worker, The",
+          "authorFirstName": "Kate",
+          "authorLastName": "Banks",
+          "lexile": 260
+        },
+        {
+          "title": "Frida",
+          "authorFirstName": "Jonah",
+          "authorLastName": "Winter",
+          "lexile": 280
+        },
+        {
+          "title": "Children Around The World",
+          "authorFirstName": "Donata",
+          "authorLastName": "Montanari",
+          "lexile": 280
+        },
+        {
+          "title": "Mo's Mustache",
+          "authorFirstName": "Ben",
+          "authorLastName": "Clanton",
+          "lexile": 300
+        },
+        {
+          "title": "Sitting Bull",
+          "authorFirstName": "Lucille Recht",
+          "authorLastName": "Penner",
+          "lexile": 330
+        },
+        {
+          "title": "Silly Tilly's Valentine",
+          "authorFirstName": "Lillian",
+          "authorLastName": "Hoban",
+          "lexile": 120
+        },
+        {
+          "title": "Letter To Amy, A",
+          "authorFirstName": "Ezra Jack",
+          "authorLastName": "Keats",
+          "lexile": 170
+        },
+        {
+          "title": "Bringing In The New Year",
+          "authorFirstName": "Grace",
+          "authorLastName": "Lin",
+          "lexile": 250
+        },
+        {
+          "title": "Santa Calls",
+          "authorFirstName": "William",
+          "authorLastName": "Joyce",
+          "lexile": 290
+        },
+        {
+          "title": "Parade",
+          "authorFirstName": "Donald",
+          "authorLastName": "Crews",
+          "lexile": 290
+        },
+        {
+          "title": "Runaway Rice Cake, The",
+          "authorFirstName": "Ying Chang",
+          "authorLastName": "Compestine",
+          "lexile": 300
+        },
+        {
+          "title": "Martin's Big Words",
+          "authorFirstName": "Doreen",
+          "authorLastName": "Rappaport",
+          "lexile": 380
+        },
+        {
+          "title": "Hershel And The Hanukkah Goblins",
+          "authorFirstName": "Eric A.",
+          "authorLastName": "Kimmel",
+          "lexile": 400
+        },
+        {
+          "title": "Night Of Las Posadas, The",
+          "authorFirstName": "Tomie",
+          "authorLastName": "dePaola",
+          "lexile": 410
+        },
+        {
+          "title": "Thanksgiving Is For Giving Thanks",
+          "authorFirstName": "Margaret",
+          "authorLastName": "Sutherland",
+          "lexile": 420
+        },
+        {
+          "title": "Hooray For Snail!",
+          "authorFirstName": "John",
+          "authorLastName": "Stadler",
+          "lexile": 10
+        },
+        {
+          "title": "Froggy Plays Soccer",
+          "authorFirstName": "Jonathan",
+          "authorLastName": "London",
+          "lexile": 100
+        },
+        {
+          "title": "Greatest Gymnast Of All, The",
+          "authorFirstName": "Stuart J.",
+          "authorLastName": "Murphy",
+          "lexile": 110
+        },
+        {
+          "title": "Hide-And-Seek All Week",
+          "authorFirstName": "Tomie",
+          "authorLastName": "dePaola",
+          "lexile": 160
+        },
+        {
+          "title": "Kate Skates",
+          "authorFirstName": "Jane",
+          "authorLastName": "O'Connor",
+          "lexile": 170
+        },
+        {
+          "title": "Kite, The",
+          "authorFirstName": "Mary",
+          "authorLastName": "Packard",
+          "lexile": 180
+        },
+        {
+          "title": "May I Please Have A Cookie?",
+          "authorFirstName": "Jennifer E.",
+          "authorLastName": "Morris",
+          "lexile": 250
+        },
+        {
+          "title": "Home Run: The Story Of Babe Ruth",
+          "authorFirstName": "Robert",
+          "authorLastName": "Burleigh",
+          "lexile": 280
+        },
+        {
+          "title": "Winners Never Quit!",
+          "authorFirstName": "Mia",
+          "authorLastName": "Hamm",
+          "lexile": 290
+        },
+        {
+          "title": "Fun With Dude And Betty",
+          "authorFirstName": "Lisa",
+          "authorLastName": "Pliscou",
+          "lexile": 290
+        }
+      ],
+      "quizState": "QUIZ_FINISHED"
+    },
+    "mediaType": null,
+    "creators": [
+      
+    ],
+    "learningObjectives": [
+      
+    ],
+    "keywords": [
+      
+    ],
+    "isPartOf": null,
+    "datePublished": null,
+    "version": null,
+    "items": [
+      
+    ]
+  },
+  "target": null,
+  "generated": null,
+  "referrer": null,
+  "eventTime": {
+    "centuryOfEra": 20,
+    "yearOfEra": 2018,
+    "yearOfCentury": 18,
+    "weekyear": 2018,
+    "monthOfYear": 8,
+    "weekOfWeekyear": 35,
+    "hourOfDay": 17,
+    "minuteOfHour": 40,
+    "secondOfMinute": 16,
+    "millisOfSecond": 239,
+    "minuteOfDay": 1060,
+    "millisOfDay": 63616239,
+    "secondOfDay": 63616,
+    "era": 1,
+    "dayOfYear": 239,
+    "dayOfWeek": 1,
+    "dayOfMonth": 27,
+    "year": 2018,
+    "chronology": {
+      "zone": {
+        "uncachedZone": {
+          "cachable": true,
+          "fixed": false,
+          "id": "America\/New_York"
+        },
+        "fixed": false,
+        "id": "America\/New_York"
+      }
+    },
+    "zone": {
+      "uncachedZone": {
+        "cachable": true,
+        "fixed": false,
+        "id": "America\/New_York"
+      },
+      "fixed": false,
+      "id": "America\/New_York"
+    },
+    "millis": 1535406016239,
+    "afterNow": false,
+    "beforeNow": true,
+    "equalNow": false
+  },
+  "edApp": {
+    "@context": null,
+    "id": "https:\/\/www.hmhco.com\/\/readinginventory",
+    "type": "SoftwareApplication",
+    "name": "readinginventory",
+    "description": null,
+    "dateCreated": null,
+    "dateModified": null,
+    "extensions": null,
+    "version": null
+  },
+  "group": null,
+  "membership": {
+    "@context": null,
+    "id": "https:\/\/www.hmhco.com\/users\/0f4fedbe-2227-415f-8553-40731a627171",
+    "type": "Membership",
+    "name": null,
+    "description": null,
+    "dateCreated": null,
+    "dateModified": null,
+    "extensions": null,
+    "member": null,
+    "organization": {
+      "@context": null,
+      "id": "https:\/\/www.hmhco.com\/organizations\/ab570d90-3791-4048-a5ee-759657ddccef",
+      "type": "Organization",
+      "name": null,
+      "description": null,
+      "dateCreated": null,
+      "dateModified": null,
+      "extensions": null,
+      "subOrganizationOf": {
+        "@context": null,
+        "id": "https:\/\/www.hmhco.com\/organizations\/ea827de8-0ce9-4fe4-a28c-eb388bd9eb92",
+        "type": "Organization",
+        "name": null,
+        "description": null,
+        "dateCreated": null,
+        "dateModified": null,
+        "extensions": null,
+        "subOrganizationOf": null,
+        "members": [
+          
+        ]
+      },
+      "members": [
+        
+      ]
+    },
+    "roles": [
+      "Learner"
+    ],
+    "status": null
+  },
+  "session": null,
+  "federatedSession": null,
+  "extensions": {
+    
+  }
+}
