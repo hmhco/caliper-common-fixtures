@@ -1,45 +1,159 @@
 {
-   "@context":"http://purl.imsglobal.org/ctx/caliper/v1p1",
-   "type":"AssessmentEvent",
-   "id":"822fe30b-e42f-4287-805e-98ff5b9e9dea",
-   "actor":{
-      "id":"https://www.hmhco.com/ed/users/0f4fedbe-2227-415f-8553-40731a627171",
-      "type":"Person"
-   },
-   "action":"Started",
-   "object":{
-      "id":"61fe17b8a79f4e50b20c2a58f9fa3097",
-      "type":"Assessment",
-      "name":"HMH-RI"
-   },
-   "eventTime":"2016-11-15T10:15:00.000Z",
-   "edApp":{
-      "id":"https://www.hmhco.com/ed",
-      "type":"SoftwareApplication",
-      "version":"v2"
-   },
-   "membership":{
-      "id":"https://www.hmhco.com/ed/users/0f4fedbe-2227-415f-8553-40731a627171",
-      "member": {
-          "id": "https://www.hmhco.com/ed/users/0f4fedbe-2227-415f-8553-40731a627171",
-          "type": "Person"
+  "@context": {
+    "@context": "http:\/\/purl.imsglobal.org\/ctx\/caliper\/v1p1"
+  },
+  "type": "Event",
+  "id": "urn:uuid:0005a6a4-3868-4256-9f91-2b929d541fec",
+  "actor": {
+    "@context": null,
+    "id": "https:\/\/www.hmhco.com\/users\/0f4fedbe-2227-415f-8553-40731a627171",
+    "type": "Person",
+    "name": "Casandra Rath",
+    "description": null,
+    "dateCreated": null,
+    "dateModified": null,
+    "extensions": null
+  },
+  "action": "Started",
+  "object": {
+    "dateToStartOn": null,
+    "dateToActivate": null,
+    "dateToShow": null,
+    "dateToSubmit": null,
+    "@context": null,
+    "id": "https:\/\/www.hmhco.com\/readinginventory\/quiz\/c35603f7a3434e2cb74ef14d60e70f42",
+    "type": "Assessment",
+    "name": "readinginventory",
+    "description": null,
+    "dateCreated": null,
+    "dateModified": null,
+    "extensions": {
+      "quizSequence": 1,
+      "score": null,
+      "isPractice": false,
+      "recommendation": null
+    },
+    "mediaType": null,
+    "creators": [
+      
+    ],
+    "learningObjectives": [
+      
+    ],
+    "keywords": [
+      
+    ],
+    "isPartOf": null,
+    "datePublished": null,
+    "version": null,
+    "items": [
+      
+    ]
+  },
+  "target": null,
+  "generated": null,
+  "referrer": null,
+  "eventTime": {
+    "centuryOfEra": 20,
+    "yearOfEra": 2018,
+    "yearOfCentury": 18,
+    "weekyear": 2018,
+    "monthOfYear": 8,
+    "weekOfWeekyear": 35,
+    "hourOfDay": 17,
+    "minuteOfHour": 11,
+    "secondOfMinute": 44,
+    "millisOfSecond": 615,
+    "millisOfDay": 61904615,
+    "secondOfDay": 61904,
+    "minuteOfDay": 1031,
+    "era": 1,
+    "dayOfYear": 239,
+    "dayOfWeek": 1,
+    "dayOfMonth": 27,
+    "year": 2018,
+    "chronology": {
+      "zone": {
+        "uncachedZone": {
+          "cachable": true,
+          "fixed": false,
+          "id": "America\/New_York"
+        },
+        "fixed": false,
+        "id": "America\/New_York"
+      }
+    },
+    "zone": {
+      "uncachedZone": {
+        "cachable": true,
+        "fixed": false,
+        "id": "America\/New_York"
       },
-      "type":"Membership",
-      "organization":{
-         "id":"https://www.hmhco.com/ed/organizations/fbb79fa9-ce24-4979-beba-66c57395b0a1",
-         "type":"Organization",
-         "subOrganizationOf":{
-            "id":"https://www.hmhco.com/ed/organizations/7f7b4763-8b91-45ce-b7a4-e051fd79953c",
-            "type":"Organization"
-         }
+      "fixed": false,
+      "id": "America\/New_York"
+    },
+    "millis": 1535404304615,
+    "afterNow": false,
+    "beforeNow": true,
+    "equalNow": false
+  },
+  "edApp": {
+    "@context": null,
+    "id": "https:\/\/www.hmhco.com\/\/readinginventory",
+    "type": "SoftwareApplication",
+    "name": "readinginventory",
+    "description": null,
+    "dateCreated": null,
+    "dateModified": null,
+    "extensions": null,
+    "version": null
+  },
+  "group": null,
+  "membership": {
+    "@context": null,
+    "id": "https:\/\/www.hmhco.com\/users\/0f4fedbe-2227-415f-8553-40731a627171",
+    "type": "Membership",
+    "name": null,
+    "description": null,
+    "dateCreated": null,
+    "dateModified": null,
+    "extensions": null,
+    "member": null,
+    "organization": {
+      "@context": null,
+      "id": "https:\/\/www.hmhco.com\/organizations\/ab570d90-3791-4048-a5ee-759657ddccef",
+      "type": "Organization",
+      "name": null,
+      "description": null,
+      "dateCreated": null,
+      "dateModified": null,
+      "extensions": null,
+      "subOrganizationOf": {
+        "@context": null,
+        "id": "https:\/\/www.hmhco.com\/organizations\/ea827de8-0ce9-4fe4-a28c-eb388bd9eb92",
+        "type": "Organization",
+        "name": null,
+        "description": null,
+        "dateCreated": null,
+        "dateModified": null,
+        "extensions": null,
+        "subOrganizationOf": null,
+        "members": [
+          
+        ]
       },
-      "roles":[
-         "Learner"
+      "members": [
+        
       ]
-   },
-   "extensions": {
-       "quizSequence": "1",
-       "isPractice": "true",
-       "startLexile": "100"
-   }
+    },
+    "roles": [
+      "Learner"
+    ],
+    "status": null
+  },
+  "session": null,
+  "federatedSession": null,
+  "extensions": {
+    
+  }
 }
