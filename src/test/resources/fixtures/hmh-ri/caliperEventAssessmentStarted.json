@@ -1,159 +1,58 @@
 {
-  "@context": {
-    "@context": "http:\/\/purl.imsglobal.org\/ctx\/caliper\/v1p1"
+  "@context":"http://purl.imsglobal.org/ctx/caliper/v1p1",
+  "type":"AssessmentEvent",
+  "id":"urn:uuid:uniqueIdPerEvent",
+  "actor":{
+    "id":"https://https://www.hmhco.com/ed/users/userRefId",
+    "type":"Person",
+    "name" : "Casandra Rath"
   },
-  "type": "Event",
-  "id": "urn:uuid:0005a6a4-3868-4256-9f91-2b929d541fec",
-  "actor": {
-    "@context": null,
-    "id": "https:\/\/www.hmhco.com\/users\/0f4fedbe-2227-415f-8553-40731a627171",
-    "type": "Person",
-    "name": "Casandra Rath",
-    "description": null,
-    "dateCreated": null,
-    "dateModified": null,
-    "extensions": null
+  "action":"Started",
+  "object":{
+    "id":"https://www.hmhco.com/readinginventory/quiz/c35603f7a3434e2cb74ef14d60e70f42/instance/belonging/to/student/id1",
+    "type":"Assessment",
+    "name":"HMH-RI Quiz Name - Reading Inventory",
+    "dateToStartOn":"2016-11-14T05:00:00.000Z",
+    "dateToSubmit":"2016-11-18T11:59:59.000Z",
+    "maxAttempts":1,
+    "maxSubmits":1,
+    "maxScore":25.0,
+    "version":"1.0"
   },
-  "action": "Started",
-  "object": {
-    "dateToStartOn": null,
-    "dateToActivate": null,
-    "dateToShow": null,
-    "dateToSubmit": null,
-    "@context": null,
-    "id": "https:\/\/www.hmhco.com\/readinginventory\/quiz\/c35603f7a3434e2cb74ef14d60e70f42",
-    "type": "Assessment",
-    "name": "readinginventory",
-    "description": null,
-    "dateCreated": null,
-    "dateModified": null,
-    "extensions": {
-      "quizSequence": 1,
-      "score": null,
-      "isPractice": false,
-      "recommendation": null
-    },
-    "mediaType": null,
-    "creators": [
-      
-    ],
-    "learningObjectives": [
-      
-    ],
-    "keywords": [
-      
-    ],
-    "isPartOf": null,
-    "datePublished": null,
-    "version": null,
-    "items": [
-      
-    ]
+  "generated":{
+    "id":"https://www.hmhco.com/readinginventory/quiz/c35603f7a3434e2cb74ef14d60e70f42/instance/belonging/to/student/id1/attempts/1",
+    "type":"Attempt",
+    "assignee":"https://https://www.hmhco.com/ed/users/userRefId", (same as actors id)
+    "assignable":"https://www.hmhco.com/readinginventory/quiz/c35603f7a3434e2cb74ef14d60e70f42/instance/belonging/to/student/id1", (same as object id)
+    "count":1,
+    "dateCreated":"2016-11-15T10:15:00.000Z",
+    "startedAtTime":"2016-11-15T10:15:00.000Z" (current date+time)
   },
-  "target": null,
-  "generated": null,
-  "referrer": null,
-  "eventTime": {
-    "centuryOfEra": 20,
-    "yearOfEra": 2018,
-    "yearOfCentury": 18,
-    "weekyear": 2018,
-    "monthOfYear": 8,
-    "weekOfWeekyear": 35,
-    "hourOfDay": 17,
-    "minuteOfHour": 11,
-    "secondOfMinute": 44,
-    "millisOfSecond": 615,
-    "millisOfDay": 61904615,
-    "secondOfDay": 61904,
-    "minuteOfDay": 1031,
-    "era": 1,
-    "dayOfYear": 239,
-    "dayOfWeek": 1,
-    "dayOfMonth": 27,
-    "year": 2018,
-    "chronology": {
-      "zone": {
-        "uncachedZone": {
-          "cachable": true,
-          "fixed": false,
-          "id": "America\/New_York"
-        },
-        "fixed": false,
-        "id": "America\/New_York"
+  "eventTime":"2016-11-15T10:15:00.000Z",
+  "edApp":{
+    "id":"https://www.hmhco.com/readinginventory",
+    "type":"SoftwareApplication",
+    "version":"v1"
+  },
+  "group": {
+    "id": "https://url/to/ids/district/school/sections/sectionId1",
+    "type": "CourseSection",
+    "courseNumber": "CPS 435-01",
+    "academicSession": "Fall 2016"
+  },
+  "membership":{
+    "id":"https://url/to/ids/roster/2018/id1", (not sure what id to put here)
+    "type":"Membership",
+    "organization":{
+      "id":"https://url/to/ids/schools/schoolRefId",
+      "type":"Organization",
+      "subOrganizationOf":{
+        "id":"https://url/to/ids/districts/districtRefId",
+        "type":"Organization"
       }
     },
-    "zone": {
-      "uncachedZone": {
-        "cachable": true,
-        "fixed": false,
-        "id": "America\/New_York"
-      },
-      "fixed": false,
-      "id": "America\/New_York"
-    },
-    "millis": 1535404304615,
-    "afterNow": false,
-    "beforeNow": true,
-    "equalNow": false
-  },
-  "edApp": {
-    "@context": null,
-    "id": "https:\/\/www.hmhco.com\/\/readinginventory",
-    "type": "SoftwareApplication",
-    "name": "readinginventory",
-    "description": null,
-    "dateCreated": null,
-    "dateModified": null,
-    "extensions": null,
-    "version": null
-  },
-  "group": null,
-  "membership": {
-    "@context": null,
-    "id": "https:\/\/www.hmhco.com\/users\/0f4fedbe-2227-415f-8553-40731a627171",
-    "type": "Membership",
-    "name": null,
-    "description": null,
-    "dateCreated": null,
-    "dateModified": null,
-    "extensions": null,
-    "member": null,
-    "organization": {
-      "@context": null,
-      "id": "https:\/\/www.hmhco.com\/organizations\/ab570d90-3791-4048-a5ee-759657ddccef",
-      "type": "Organization",
-      "name": null,
-      "description": null,
-      "dateCreated": null,
-      "dateModified": null,
-      "extensions": null,
-      "subOrganizationOf": {
-        "@context": null,
-        "id": "https:\/\/www.hmhco.com\/organizations\/ea827de8-0ce9-4fe4-a28c-eb388bd9eb92",
-        "type": "Organization",
-        "name": null,
-        "description": null,
-        "dateCreated": null,
-        "dateModified": null,
-        "extensions": null,
-        "subOrganizationOf": null,
-        "members": [
-          
-        ]
-      },
-      "members": [
-        
-      ]
-    },
-    "roles": [
-      "Learner"
-    ],
-    "status": null
-  },
-  "session": null,
-  "federatedSession": null,
-  "extensions": {
-    
+    "roles":[ "Learner" ],
+    "status": "Active",
+    "dateCreated": "2016-08-01T06:00:00.000Z"
   }
 }
