@@ -1,7 +1,7 @@
 {
   "@context":"http://purl.imsglobal.org/ctx/caliper/v1p1",
-  "type":"AssessmentEvent",
   "id":"urn:uuid:uniqueIdPerEvent",
+  "type":"AssessmentItemEvent",
   "actor":{
     "id":"https://https://www.hmhco.com/ed/users/userRefId",
     "type":"Person",
@@ -9,24 +9,33 @@
   },
   "action":"Started",
   "object":{
-    "id":"https://www.hmhco.com/readinginventory/quiz/c35603f7a3434e2cb74ef14d60e70f42/instance/belonging/to/student/userRefId",
-    "type":"Assessment",
-    "name":"HMH-RI Quiz Name - Reading Inventory",
+    "id":"https://www.hmhco.com/readinginventory/quiz/c35603f7a3434e2cb74ef14d60e70f42/instance/belonging/to/student/userRefId/item/itemId1",
+    "type":"AssessmentItem",
+    "name":"Item 1 (Question)",
+    "isPartOf":{
+      "id":"https://www.hmhco.com/readinginventory/quiz/c35603f7a3434e2cb74ef14d60e70f42/instance/belonging/to/student/userRefId", (object id in AssessmentStartedEvent)
+      "type":"Assessment"
+    },
     "dateToStartOn":"2016-11-14T05:00:00.000Z",
     "dateToSubmit":"2016-11-18T11:59:59.000Z",
-    "maxAttempts":1,
-    "maxSubmits":1,
-    "maxScore":25.0,
+    "maxAttempts":2,
+    "maxSubmits":2,
+    "maxScore":1.0, (set to zero for practice questions)
+    "isTimeDependent":false,
     "version":"1.0"
   },
   "generated":{
-    "id":"https://www.hmhco.com/readinginventory/quiz/c35603f7a3434e2cb74ef14d60e70f42/instance/belonging/to/student/userRefId/attempts/1",
+    "id":"https://www.hmhco.com/readinginventory/quiz/c35603f7a3434e2cb74ef14d60e70f42/instance/belonging/to/student/userRefId/item/itemId1/attempts/1",
     "type":"Attempt",
-    "assignee":"https://https://www.hmhco.com/ed/users/userRefId", (same as actors id)
-    "assignable":"https://www.hmhco.com/readinginventory/quiz/c35603f7a3434e2cb74ef14d60e70f42/instance/belonging/to/student/userRefId", (same as object id)
+    "assignee":"https://https://www.hmhco.com/ed/users/userRefId", (same as actor)
+    "assignable":"https://www.hmhco.com/readinginventory/quiz/c35603f7a3434e2cb74ef14d60e70f42/instance/belonging/to/student/userRefId/item/itemId1", (same as object id)
+    "isPartOf":{
+      "id":"https://www.hmhco.com/readinginventory/quiz/c35603f7a3434e2cb74ef14d60e70f42/instance/belonging/to/student/userRefId/item/itemId1/attempts/previousAttemptId", (first time round this wont exist)
+      "type":"Attempt"
+    },
     "count":1,
     "dateCreated":"2016-11-15T10:15:00.000Z",
-    "startedAtTime":"2016-11-15T10:15:00.000Z" (current date+time)
+    "startedAtTime":"2016-11-15T10:15:00.000Z"
   },
   "eventTime":"2016-11-15T10:15:00.000Z",
   "edApp":{
