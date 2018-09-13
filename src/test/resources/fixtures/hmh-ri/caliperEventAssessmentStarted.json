@@ -1,17 +1,17 @@
 {
   "@context":"http://purl.imsglobal.org/ctx/caliper/v1p1",
   "type":"AssessmentEvent",
-  "id":"urn:uuid:uniqueIdPerEvent",
+  "id":"urn:uuid:27734504-068d-4596-861c-2315be33a2a2",
   "actor":{
-    "id":"https://https://www.hmhco.com/ed/users/userRefId",
+    "id":"urn:uuid:0f4fedbe-2227-415f-8553-40731a627171",
     "type":"Person",
     "name" : "Casandra Rath"
   },
   "action":"Started",
   "object":{
-    "id":"https://www.hmhco.com/readinginventory/quiz/c35603f7a3434e2cb74ef14d60e70f42/instance/belonging/to/student/userRefId",
+    "id":"urn:uuid:c050e852-5edb-4743-92d1-b53466de3a5f", // assignment activity id
     "type":"Assessment",
-    "name":"HMH-RI Quiz Name - Reading Inventory",
+    "name":"ReadingInventory",
     "dateToStartOn":"2016-11-14T05:00:00.000Z",
     "dateToSubmit":"2016-11-18T11:59:59.000Z",
     "maxAttempts":1,
@@ -20,34 +20,28 @@
     "version":"1.0"
   },
   "generated":{
-    "id":"https://www.hmhco.com/readinginventory/quiz/c35603f7a3434e2cb74ef14d60e70f42/instance/belonging/to/student/userRefId/attempts/1",
+    "id":"urn:uuid:c35603f7a3434e2cb74ef14d60e70f42", // ri-quiz id
     "type":"Attempt",
-    "assignee":"https://https://www.hmhco.com/ed/users/userRefId", (same as actors id)
-    "assignable":"https://www.hmhco.com/readinginventory/quiz/c35603f7a3434e2cb74ef14d60e70f42/instance/belonging/to/student/userRefId", (same as object id)
+    "assignee":"urn:uuid:0f4fedbe-2227-415f-8553-40731a627171",
+    "assignable":"urn:uuid:c050e852-5edb-4743-92d1-b53466de3a5f",
     "count":1,
     "dateCreated":"2016-11-15T10:15:00.000Z",
-    "startedAtTime":"2016-11-15T10:15:00.000Z" (current date+time)
+    "startedAtTime":"2016-11-15T10:15:00.000Z"
   },
   "eventTime":"2016-11-15T10:15:00.000Z",
   "edApp":{
-    "id":"https://www.hmhco.com/readinginventory",
+    "id":"https://www.hmhco.com/ReadingInventory",
     "type":"SoftwareApplication",
-    "version":"v1"
-  },
-  "group": {
-    "id": "https://url/to/ids/district/school/sections/sectionId1",
-    "type": "CourseSection",
-    "courseNumber": "CPS 435-01",
-    "academicSession": "Fall 2016"
+    "version":"v2"
   },
   "membership":{
-    "id":"https://url/to/ids/roster/2018/id1", (not sure what id to put here)
+    "id":"urn:uuid:0f4fedbe-2227-415f-8553-40731a627171", // actor/person id
     "type":"Membership",
     "organization":{
-      "id":"https://url/to/ids/schools/schoolRefId",
+      "id":"urn:uuid:ab570d90-3791-4048-a5ee-759657ddccef", // school ref id
       "type":"Organization",
       "subOrganizationOf":{
-        "id":"https://url/to/ids/districts/districtRefId",
+        "id":"urn:uuid:ea827de8-0ce9-4fe4-a28c-eb388bd9eb92", //district ref id
         "type":"Organization"
       }
     },
