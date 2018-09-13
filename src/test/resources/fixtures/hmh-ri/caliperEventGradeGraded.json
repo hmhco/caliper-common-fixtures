@@ -1,60 +1,54 @@
 {
   "@context": "http://purl.imsglobal.org/ctx/caliper/v1p1",
-  "id":"urn:uuid:uniqueIdPerEvent",
+  "id":"urn:uuid:a50ca17f-5971-47bb-8fca-4e6e6879001d",
   "type": "GradeEvent",
   "actor": {
-    "id": "https://url/to/lexileService",
+    "id": "https://www.hmhco.com/ReadingInventory",
     "type": "SoftwareApplication",
-    "version": "v1"
+    "version": "v2"
   },
   "action": "Graded",
   "object": {
-    "id": "https://www.hmhco.com/readinginventory/quiz/c35603f7a3434e2cb74ef14d60e70f42/instance/belonging/to/student/userRefId/item/itemId1/attempts/completedAttemptId",
+    "id": "urn:uuid:c35603f7a3434e2cb74ef14d60e70f42",
     "type": "Attempt",
     "assignee": {
-      "id":"https://https://www.hmhco.com/ed/users/userRefId",
+      "id":"urn:uuid:0f4fedbe-2227-415f-8553-40731a627171",
       "type": "Person",
       "name" : "Casandra Rath"
     },
     "assignable": {
-      "id":"https://www.hmhco.com/readinginventory/quiz/c35603f7a3434e2cb74ef14d60e70f42/instance/belonging/to/student/userRefId",
+      "id":"urn:uuid:c050e852-5edb-4743-92d1-b53466de3a5f",
       "type": "Assessment"
     },
-    "count": 100, (count of all the students attempts made during the whole assignment)
+    "count": 100,
     "dateCreated": "2016-11-15T10:05:00.000Z",
     "startedAtTime": "2016-11-15T10:05:00.000Z",
     "endedAtTime": "2016-11-15T10:55:12.000Z"
   },
   "eventTime": "2016-11-15T10:57:06.000Z",
   "edApp":{
-    "id":"https://www.hmhco.com/readinginventory",
+    "id":"https://www.hmhco.com/ReadingInventory",
     "type":"SoftwareApplication",
-    "version":"v1"
+    "version":"v2"
   },
   "generated": {
-    "id": "https://www.hmhco.com/readinginventory/quiz/c35603f7a3434e2cb74ef14d60e70f42/instance/belonging/to/student/userRefId/attempts/completedAttemptId/scores/1",
+    "id": "urn:uuid:c050e852-5edb-4743-92d1-b53466de3a5f", // ri-activity-id
     "type": "Score",
-    "attempt": "https://www.hmhco.com/readinginventory/quiz/c35603f7a3434e2cb74ef14d60e70f42/instance/belonging/to/student/userRefId/attempts/completedAttemptId",
-    "maxScore": 15.0,
-    "scoreGiven": -487.0,
-    "scoredBy": "https://url/to/lexileService", (actor id)
-    "comment": "The lexile score from Test Quiz # c35603f7a3434e2cb74ef14d60e70f42 taken on date/time for student userRefId",
+    "attempt": "urn:uuid:c35603f7a3434e2cb74ef14d60e70f42", // ri-quiz-id
+    "maxScore": 1700,
+    "scoreGiven": 800,
+    "scoredBy": "https://www.hmhco.com/ReadingInventory",
+    "comment": "The lexile score from Test Quiz # c35603f7a3434e2cb74ef14d60e70f42 taken on date/time for student 0f4fedbe-2227-415f-8553-40731a627171",
     "dateCreated": "2016-11-15T10:56:00.000Z"
   },
-  "group": {
-    "id": "https://url/to/ids/district/school/sections/sectionId1",
-    "type": "CourseSection",
-    "courseNumber": "CPS 435-01",
-    "academicSession": "Fall 2016"
-  },
   "membership":{
-    "id":"https://url/to/ids/roster/2018/id1", (not sure what id to put here)
+    "id":"urn:uuid:0f4fedbe-2227-415f-8553-40731a627171", // actor/person id
     "type":"Membership",
     "organization":{
-      "id":"https://url/to/ids/schools/schoolRefId",
+      "id":"urn:uuid:ab570d90-3791-4048-a5ee-759657ddccef", // school ref id
       "type":"Organization",
       "subOrganizationOf":{
-        "id":"https://url/to/ids/districts/districtRefId",
+        "id":"urn:uuid:ea827de8-0ce9-4fe4-a28c-eb388bd9eb92", //district ref id
         "type":"Organization"
       }
     },
