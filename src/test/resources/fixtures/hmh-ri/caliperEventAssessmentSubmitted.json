@@ -4,8 +4,7 @@
   "id":"urn:uuid:bd232c3c-d86c-45b6-b2eb-3d7688ceeee5",
   "actor":{
     "id":"urn:uuid:0f4fedbe-2227-415f-8553-40731a627171",
-    "type":"Person",
-    "name":"Casandra Rath"
+    "type":"Person"
   },
   "action":"Submitted",
   "object":{
@@ -31,7 +30,6 @@
   "membership":{
     "id":"urn:uuid:0f4fedbe-2227-415f-8553-40731a627171",
     "type":"Membership",
-    "dateCreated":"2016-08-01T06:00:00.000Z",
     "organization":{
       "id":"urn:uuid:ab570d90-3791-4048-a5ee-759657ddccef",
       "type":"Organization",

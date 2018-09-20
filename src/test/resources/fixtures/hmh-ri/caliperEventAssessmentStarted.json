@@ -4,8 +4,7 @@
   "id":"urn:uuid:27734504-068d-4596-861c-2315be33a2a2",
   "actor":{
     "id":"urn:uuid:0f4fedbe-2227-415f-8553-40731a627171",
-    "type":"Person",
-    "name" : "Casandra Rath"
+    "type":"Person"
   },
   "action":"Started",
   "object":{
@@ -40,7 +39,6 @@
       }
     },
     "roles":[ "Learner" ],
-    "status": "Active",
-    "dateCreated": "2016-08-01T06:00:00.000Z"
+    "status": "Active"
   }
 }
