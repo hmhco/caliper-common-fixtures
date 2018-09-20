@@ -1,0 +1,69 @@
+{
+  "@context": "http://purl.imsglobal.org/ctx/caliper/v1p1",
+  "id":"urn:uuid:uniqueIdPerEvent",
+  "type": "Event",
+  "actor": {
+    "id": "https://url/to/lexileService",
+    "type": "SoftwareApplication",
+    "version": "v1"
+  },
+  "action": "Created",
+  "object": {
+    "id": "https://www.hmhco.com/readinginventory/quiz/c35603f7a3434e2cb74ef14d60e70f42/instance/belonging/to/student/userRefId/item/itemId1/attempts/completedAttemptId", (points to the same attempt in GradeEvent)
+    "type": "Attempt",
+    "assignee": {
+      "id":"https://https://www.hmhco.com/ed/users/userRefId",
+      "type": "Person",
+      "name" : "Casandra Rath"
+    },
+    "assignable": {
+      "id":"https://www.hmhco.com/readinginventory/quiz/c35603f7a3434e2cb74ef14d60e70f42/instance/belonging/to/student/userRefId", (points to the same assessment referenced in GradeEvent)
+      "type": "Assessment"
+    }
+  },
+  "referrer" : "https://www.hmhco.com/readinginventory/quiz/c35603f7a3434e2cb74ef14d60e70f42/instance/belonging/to/student/userRefId/attempts/completedAttemptId/scores/1", (source is from specific score for specific assessment)
+  "generated": {
+    "id": "https://www.hmhco.com/readinginventory/quiz/c35603f7a3434e2cb74ef14d60e70f42/instance/belonging/to/student/userRefId/attempts/completedAttemptId/scores/1/recommendation/1",
+    "type": "DigitalResourceCollection",
+    "name": "List of Recommended books based of lexile score for specific assessment taken by student",
+    "items": [
+      {
+        "id": "https://url/to/book/resource",
+        "type": "Document",
+        "mediaType": "Document",
+        "name": "Too Much Noise",
+        "creators": [
+          {
+            "id": "https://url/to/author/id",
+            "type": "Person",
+            "name": "Ann McGovern"
+          }
+        ],
+        "extensions": {
+          "lexile": 0
+        },
+        "version": "1.1"
+      },
+      {
+        "id": "https://url/to/book/resource",
+        "type": "Document",
+        "mediaType": "Document",
+        "name": "Work and Play",
+        "creators": [
+          {
+            "id": "https://url/to/author/id",
+            "type": "Person",
+            "name": "Sydnie Kleinhenz"
+          }
+        ],
+        "extensions": {
+          "lexile": 60
+        },
+        "version": "1.1"
+      }
+    ],
+    "dateCreated": "2016-11-12T07:15:00.000Z",
+    "version": "1"
+  },
+  "eventTime": "2016-11-15T10:15:00.000Z"
+}
