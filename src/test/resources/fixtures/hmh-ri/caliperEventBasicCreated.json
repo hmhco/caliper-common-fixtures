@@ -13,8 +13,7 @@
     "type": "Attempt",
     "assignee": {
       "id":"https://https://www.hmhco.com/ed/users/userRefId",
-      "type": "Person",
-      "name" : "Casandra Rath"
+      "type": "Person"
     },
     "assignable": {
       "id":"https://www.hmhco.com/readinginventory/quiz/c35603f7a3434e2cb74ef14d60e70f42/instance/belonging/to/student/userRefId", (points to the same assessment referenced in GradeEvent)

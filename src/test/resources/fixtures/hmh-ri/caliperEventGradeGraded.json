@@ -4,8 +4,7 @@
   "type": "GradeEvent",
   "actor":{
     "id":"urn:uuid:0f4fedbe-2227-415f-8553-40731a627171",
-    "type":"Person",
-    "name" : "Casandra Rath"
+    "type":"Person"
   },
   "action": "Graded",
   "object": {
@@ -45,7 +44,6 @@
       }
     },
     "roles":[ "Learner" ],
-    "status": "Active",
-    "dateCreated": "2016-08-01T06:00:00.000Z"
+    "status": "Active"
   }
 }
