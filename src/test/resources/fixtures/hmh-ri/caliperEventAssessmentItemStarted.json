@@ -38,11 +38,7 @@
     "startedAtTime":"2016-11-15T10:15:00.000Z"
   },
   "eventTime":"2016-11-15T10:15:00.000Z",
-  "edApp":{
-    "id":"https://www.hmhco.com/readinginventory",
-    "type":"SoftwareApplication",
-    "version":"v1"
-  },
+  "edApp": "https://www.hmhco.com/readinginventory",
   "group": {
     "id": "https://url/to/ids/district/school/sections/sectionId1",
     "type": "CourseSection",
