@@ -36,10 +36,10 @@
     "id":"urn:uuid:8f4fedbe-2227-415f-8553-40731a627171", // random UUID
     "type":"Membership",
     "organization":{
-      "id":"urn:uuid:ab570d90-3791-4048-a5ee-759657ddccef", // random UUID
+      "id":"urn:uuid:ab570d90-3791-4048-a5ee-759657ddccef", // School ref Id
       "type":"Organization",
       "subOrganizationOf":{
-        "id":"urn:uuid:ea827de8-0ce9-4fe4-a28c-eb388bd9eb92", // random UUID
+        "id":"urn:uuid:ea827de8-0ce9-4fe4-a28c-eb388bd9eb92", // district ref id
         "type":"Organization"
       }
     },
