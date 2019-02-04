@@ -25,6 +25,7 @@
   "generated": {
     "id": "urn:uuid:2050e852-5edb-4743-92d1-b53466de3a5f", // random UUID
     "type": "Score",
+    "name": "star", // score name
     "attempt": "urn:uuid:1050e852-5edb-4743-92d1-b53466de3a5f", //last attempt id
     "maxScore": 1400,
     "scoreGiven": 500,
