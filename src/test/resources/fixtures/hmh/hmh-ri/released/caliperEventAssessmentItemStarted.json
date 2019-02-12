@@ -1,0 +1,57 @@
+{
+  "@context":"http://purl.imsglobal.org/ctx/caliper/v1p1",
+  "id":"urn:uuid:uniqueIdPerEvent",
+  "type":"AssessmentItemEvent",
+  "actor":{
+    "id":"urn:uuid:0f4fedbe-2227-415f-8553-40731a627171",
+    "type":"Person",
+    "name" : "Casandra Rath"
+  },
+  "action":"Started",
+  "object":{
+    "id":"urn:uuid:itemIdGuid",
+    "type":"AssessmentItem",
+    "name":"Item 1 (Question)",
+    "isPartOf":{
+      "id":"urn:uuid:assessmentStartedObjectIdGuid",
+      "type":"Assessment"
+    },
+    "dateToStartOn":"2016-11-14T05:00:00.000Z",
+    "dateToSubmit":"2016-11-18T11:59:59.000Z",
+    "maxAttempts":2,
+    "maxSubmits":2,
+    "maxScore":1.0,
+    "isTimeDependent":false,
+    "version":"1.0"
+  },
+  "generated":{
+    "id":"urn:uuid:itemsAttemptGuid",
+    "type":"Attempt",
+    "assignee":"urn:uuid:0f4fedbe-2227-415f-8553-40731a627171",
+    "assignable":"urn:uuid:itemIdGuid",
+    "isPartOf":{
+      "id":"urn:uuid:previousAttemptGuidId",
+      "type":"Attempt"
+    },
+    "count":1,
+    "dateCreated":"2016-11-15T10:15:00.000Z",
+    "startedAtTime":"2016-11-15T10:15:00.000Z"
+  },
+  "eventTime":"2016-11-15T10:15:00.000Z",
+  "edApp": "https://www.hmhco.com/readinginventory",
+  "membership":{
+    "id":"urn:uuid:randomGuidId",
+    "type":"Membership",
+    "organization":{
+      "id":"urn:uuid:ab570d90-3791-4048-a5ee-759657ddccef",
+      "type":"Organization",
+      "subOrganizationOf":{
+        "id":"urn:uuid:ea827de8-0ce9-4fe4-a28c-eb388bd9eb92",
+        "type":"Organization"
+      }
+    },
+    "roles":[ "Learner" ],
+    "status": "Active",
+    "dateCreated": "2016-08-01T06:00:00.000Z"
+  }
+}
