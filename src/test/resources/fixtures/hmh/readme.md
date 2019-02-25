@@ -34,6 +34,7 @@ ensure you have opened a PR in github.com/hmhco/caliper-java for your new Calipe
   * object.id - last attempt id
   * object.assignee - same as actor id - the user
   * object.assignable - the assessment id  
+  * object.duration - duration for object in ISO 8601 duration format
   * generated.id - a random guid to uniquely identify the generated block within the event
   * generated.type - Score - the type of generated entity
   * generated.name - (Optional) The name by which the score can be called. E.g. For Star scores from Ren Learn, they set this field to 'star'.  

@@ -18,7 +18,8 @@
     "count": 35,
     "dateCreated": "2016-11-15T10:05:00.000Z",
     "startedAtTime": "2016-11-15T10:05:00.000Z",
-    "endedAtTime": "2016-11-15T10:55:12.000Z"
+    "endedAtTime": "2016-11-15T10:55:12.000Z",
+    "duration": "PT1200S"
   },
   "eventTime": "2016-11-15T10:57:06.000Z",
   "edApp": "https://www.hmhco.com/ReadingInventory",
