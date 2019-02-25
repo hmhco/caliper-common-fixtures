@@ -1,0 +1,35 @@
+{
+  "@context":"http://purl.imsglobal.org/ctx/caliper/v1p1",
+  "type":"AssessmentEvent",
+  "id":"urn:uuid:ae54223c-d645-4947-9d94-f0171db75c7c",
+  "actor":{
+    "id":"urn:uuid:0f4fedbe-2227-415f-8553-40731a627171",
+    "type":"Person"
+  },
+  "action":"Started",
+  "object":{
+    "id":"urn:uuid:c050e852-5edb-4743-92d1-b53466de3a5f",
+    "type":"Assessment",
+    "name":"MathInventory",
+    "maxAttempts":1,
+    "maxSubmits":1,
+    "maxScore":25.0,
+    "version":"1.0"
+  },
+  "eventTime":"2016-11-15T10:15:00.000Z",
+  "edApp": "https://www.hmhco.com/MathInventory",
+  "membership":{
+    "id":"urn:uuid:randomGuidId",
+    "type":"Membership",
+    "organization":{
+      "id":"urn:uuid:ab570d90-3791-4048-a5ee-759657ddccef",
+      "type":"Organization",
+      "subOrganizationOf":{
+        "id":"urn:uuid:ea827de8-0ce9-4fe4-a28c-eb388bd9eb92",
+        "type":"Organization"
+      }
+    },
+    "roles":[ "Learner" ],
+    "status": "Active"
+  }
+}
