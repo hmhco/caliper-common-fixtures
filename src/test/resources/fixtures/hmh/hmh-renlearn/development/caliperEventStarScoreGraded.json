@@ -26,6 +26,7 @@
     "id": "urn:uuid:2050e852-5edb-4743-92d1-b53466de3a5f",
     "type": "Score",
     "name": "star",
+    "description": "Star Reading Enterprise Tests",
     "attempt": "urn:uuid:1050e852-5edb-4743-92d1-b53466de3a5f",
     "maxScore": 1400,
     "scoreGiven": 500,
