@@ -1,0 +1,90 @@
+{
+  "sensor": "https://www.hmhco.com/Agg-PA",
+  "sendTime": "2019-03-22T13:29:31.905Z",
+  "dataVersion": "http://purl.imsglobal.org/ctx/caliper/v1p1",
+  "data": [
+    {
+      "id": "urn:uuid:18e9b267-0d58-41ca-bb57-1cc9f86ecc05",
+      "type": "GradeEvent",
+      "actor": {
+        "id": "urn:uuid:194b36cd-56e3-4c20-868f-caeb0b869ff4",
+        "type": "Person"
+      },
+      "action": "Graded",
+      "object": {
+        "id": "urn:uuid:2a85245e-4c45-4b5c-95a8-d67b75379af0",
+        "type": "Attempt",
+        "assignable": {
+          "id": "urn:uuid:43f89aa0-c888-4c92-afed-b6c8784081f4",
+          "type": "Assessment"
+        },
+        "assignee": "urn:uuid:194b36cd-56e3-4c20-868f-caeb0b869ff4"
+      },
+      "eventTime": "2019-03-22T13:29:31.905Z",
+      "generated": {
+        "id": "urn:uuid:89bd9e29-2cfe-43d8-8c47-1a20efab9630",
+        "type": "Score",
+        "extensions": {
+          "recommendedBy": "RENAISSANCE"
+        },
+        "maxScore": 12,
+        "scoreGiven": 6,
+        "attempt": {
+          "id": "urn:uuid:2a85245e-4c45-4b5c-95a8-d67b75379af0",
+          "type": "Attempt",
+          "assignable": {
+            "id": "urn:uuid:43f89aa0-c888-4c92-afed-b6c8784081f4",
+            "type": "Assessment"
+          },
+          "assignee": "urn:uuid:194b36cd-56e3-4c20-868f-caeb0b869ff4"
+        },
+        "scoredBy": "https://www.hmhco.com/Agg-PA"
+      },
+      "edApp": "https://www.hmhco.com/Agg-PA",
+      "membership": {
+        "id": "urn:uuid:43b22f49-3de2-4465-8e71-ec7659bb5a4c",
+        "type": "Membership",
+        "organization": {
+          "id": "urn:uuid:8f3036b0-66b1-49b1-bbb0-cbc6d937899f",
+          "type": "CourseSection",
+          "subOrganizationOf": {
+            "id": "urn:uuid:ece19211-b47a-44ac-b210-97d5d4d47141",
+            "type": "Organization",
+            "subOrganizationOf": {
+              "id": "urn:uuid:4315c241-d3e9-4c1e-a427-aa46923d7b70",
+              "type": "Organization"
+            }
+          },
+          "members": [
+            {
+              "id": "urn:uuid:194b36cd-56e3-4c20-868f-caeb0b869ff4",
+              "type": "Person"
+            }
+          ]
+        },
+        "roles": [
+          "Learner"
+        ],
+        "status": "Active"
+      },
+      "@context": "http://purl.imsglobal.org/ctx/caliper/v1p1"
+    },
+    {
+      "id": "urn:uuid:0a290f5c-df1e-4541-9bcc-5cbb899a3f79",
+      "type": "Membership",
+      "organization": {
+        "id": "urn:uuid:8f3036b0-66b1-49b1-bbb0-cbc6d937899f",
+        "type": "CourseSection"
+      },
+      "member": {
+        "id": "urn:uuid:7b745788-69df-4b3b-8b6d-33ef14e6f7ef",
+        "type": "Person"
+      },
+      "roles": [
+        "Instructor"
+      ],
+      "status": "Active",
+      "@context": "http://purl.imsglobal.org/ctx/caliper/v1p1"
+    }
+  ]
+}
