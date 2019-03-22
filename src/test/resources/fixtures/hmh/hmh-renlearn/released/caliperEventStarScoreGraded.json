@@ -21,7 +21,7 @@
     "endedAtTime": "2016-11-15T10:55:12.000Z"
   },
   "eventTime": "2016-11-15T10:57:06.000Z",
-  "edApp": "https://www.hmhco.com/PartnerService",
+  "edApp": "https://www.hmhco.com/RSR",
   "generated": {
     "id": "urn:uuid:2050e852-5edb-4743-92d1-b53466de3a5f",
     "type": "Score",
@@ -30,7 +30,7 @@
     "attempt": "urn:uuid:1050e852-5edb-4743-92d1-b53466de3a5f",
     "maxScore": 1400,
     "scoreGiven": 500,
-    "scoredBy": "https://www.hmhco.com/PartnerService",
+    "scoredBy": "https://www.hmhco.com/RSR",
     "comment": "The Assessment score from RenLearn # c35603f7a3434e2cb74ef14d60e70f42 taken on date/time for student 0f4fedbe-2227-415f-8553-40731a627171",
     "dateCreated": "2016-11-15T10:56:00.000Z"
   },
