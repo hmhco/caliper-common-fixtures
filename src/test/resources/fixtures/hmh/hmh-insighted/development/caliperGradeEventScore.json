@@ -20,7 +20,10 @@
           "type": "Assessment",
           "creators": [
             "https://www.renaissance.com"
-          ]
+          ],
+          "extensions": {
+            "disciplineCode": "ED18_RLA"
+          }
         },
         "assignee": "urn:uuid:8baf7b8a-94c0-44b3-9352-36d62ec465c1"
       },
