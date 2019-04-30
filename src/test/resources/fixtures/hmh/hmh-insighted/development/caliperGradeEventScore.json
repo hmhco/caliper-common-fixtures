@@ -1,14 +1,14 @@
 {
   "sensor": "https://www.hmhco.com/AggPA",
-  "sendTime": "2019-03-22T17:46:40.215Z",
+  "sendTime": "2019-03-22T17:46:40.111Z",
   "dataVersion": "http://purl.imsglobal.org/ctx/caliper/v1p1",
   "data": [
     {
       "@context": "http://purl.imsglobal.org/ctx/caliper/v1p1",
-      "id": "urn:uuid:dc790a2d-124e-4b20-9f89-2bca87ea22d4",
       "type": "GradeEvent",
+      "id": "urn:uuid:dc790a2d-124e-4b20-9f89-2bca87ea22d4",
       "actor": {
-        "id": "urn:uuid:8baf7b8a-94c0-44b3-9352-36d62ec465c1",
+        "id": "urn:uuid:d76d4cbe-0f12-4323-af07-e68566dcbcd4",
         "type": "Person"
       },
       "action": "Graded",
@@ -16,50 +16,50 @@
         "id": "urn:uuid:830b77b2-f4b3-4ac3-87b0-a4fef1d7c33e",
         "type": "Attempt",
         "assignable": {
-          "id": "urn:uuid:f449abc1-8712-4de0-8407-720ab18f3ca0",
+          "id": "urn:uuid:376835ba-947a-47f3-a990-003c7eb11cfc",
           "type": "Assessment",
-          "creators": [
-            "https://www.renaissance.com"
-          ],
           "extensions": {
             "disciplineCode": "ED18_RLA"
-          }
+          },
+          "creators": [
+            "https://www.renaissance.com"
+          ]
         },
-        "assignee": "urn:uuid:8baf7b8a-94c0-44b3-9352-36d62ec465c1"
+        "assignee": "urn:uuid:d76d4cbe-0f12-4323-af07-e68566dcbcd4"
       },
-      "eventTime": "2019-03-22T17:46:40.215Z",
       "generated": {
-        "id": "urn:uuid:87916987-1e70-46e0-beb7-2a2cb14f61aa",
+        "id": "urn:uuid:7617bd21-09bb-41fa-b2f5-d707294bce2c",
         "type": "Score",
+        "attempt": "urn:uuid:830b77b2-f4b3-4ac3-87b0-a4fef1d7c33e",
         "maxScore": 12,
         "scoreGiven": 6,
-        "attempt": "urn:uuid:830b77b2-f4b3-4ac3-87b0-a4fef1d7c33e",
         "scoredBy": "https://www.hmhco.com/AggPA"
       },
+      "eventTime": "2019-03-22T17:46:40.999Z",
       "edApp": "https://www.hmhco.com/AggPA",
       "group": {
-        "id": "urn:uuid:61cacf28-fbbf-4b00-886c-d12976d65766",
+        "id": "urn:uuid:dd1a3d98-5fba-466c-bff5-4eeab14672e0",
         "type": "CourseSection",
         "extensions": {
-          "instructor": "urn:uuid:4b9dc9e6-ca9d-44ce-ad2b-1779788ddcc8"
+          "instructor": "urn:uuid:7eba360f-5896-48d8-b8ce-23ad40892abd"
         },
         "subOrganizationOf": {
-          "id": "urn:uuid:ec3cada1-6705-4322-9668-1ffad660f5bd",
+          "id": "urn:uuid:baa92ba2-9d9f-4a76-8e5e-c89a5a2a09dc",
           "type": "Organization",
           "subOrganizationOf": {
-            "id": "urn:uuid:53354b1a-2cc0-4494-812c-e86a59a8de41",
+            "id": "urn:uuid:c2fb58c4-2d99-4e13-a570-24fc9dc160a5",
             "type": "Organization"
           }
         }
       },
       "membership": {
-        "id": "urn:uuid:b1c6e428-8061-4e7d-ac65-d15ab3d1b7d4",
+        "id": "urn:uuid:6b8fb8bb-a4b1-4367-be53-9cb78be9dab5",
         "type": "Membership",
         "organization": {
-          "id": "urn:uuid:ec3cada1-6705-4322-9668-1ffad660f5bd",
+          "id": "urn:uuid:baa92ba2-9d9f-4a76-8e5e-c89a5a2a09dc",
           "type": "Organization",
           "subOrganizationOf": {
-            "id": "urn:uuid:53354b1a-2cc0-4494-812c-e86a59a8de41",
+            "id": "urn:uuid:c2fb58c4-2d99-4e13-a570-24fc9dc160a5",
             "type": "Organization"
           }
         },
