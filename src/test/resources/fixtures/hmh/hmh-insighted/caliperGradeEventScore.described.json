@@ -1,0 +1,72 @@
+{
+  "sensor": "https://www.hmhco.com/AggPA",
+  "sendTime": "2019-03-22T17:46:40.111Z",
+  "dataVersion": "http://purl.imsglobal.org/ctx/caliper/v1p1",
+  "data": [
+    {
+      "@context": "http://purl.imsglobal.org/ctx/caliper/v1p1",
+      "type": "GradeEvent",
+      "id": "urn:uuid:{uuid is auto-generated}",
+      "actor": {
+        "id": "urn:uuid:{uuid of the student who completed the assignment}",
+        "type": "Person"
+      },
+      "action": "Graded",
+      "object": {
+        "id": "urn:uuid:{uuid is auto-generated}",
+        "type": "Attempt",
+        "assignable": {
+          "id": "urn:uuid:{uuid of this assignment}",
+          "type": "Assessment",
+          "extensions": {
+            "disciplineCode": "ED18_RLA"
+          },
+          "creators": [
+            "https://www.renaissance.com"
+          ]
+        },
+        "assignee": "urn:uuid:{uuid of the student who completed the assignment}"
+      },
+      "generated": {
+        "id": "urn:uuid:{uuid is auto-generated}",
+        "type": "Score",
+        "attempt": "urn:uuid:{uuid is the same as object.id property, contained in this message}",
+        "maxScore": 12,
+        "scoreGiven": 6,
+        "scoredBy": "https://www.hmhco.com/AggPA"
+      },
+      "eventTime": "2019-03-22T17:46:40.999Z",
+      "edApp": "https://www.hmhco.com/AggPA",
+      "group": {
+        "id": "urn:uuid:{uuid of the class associated with the assignment}",
+        "type": "CourseSection",
+        "extensions": {
+          "instructor": "urn:uuid:{uuid of the instructor who created the assignment}"
+        },
+        "subOrganizationOf": {
+          "id": "urn:uuid:{uuid of the school associated with the class}",
+          "type": "Organization",
+          "subOrganizationOf": {
+            "id": "urn:uuid:{uuid of the district associated with the school}",
+            "type": "Organization"
+          }
+        }
+      },
+      "membership": {
+        "id": "urn:uuid:{uuid is auto-generated}",
+        "type": "Membership",
+        "organization": {
+          "id": "urn:uuid:{uuid of the school associated with the class}",
+          "type": "Organization",
+          "subOrganizationOf": {
+            "id": "urn:uuid:{uuid of the district associated with the school}",
+            "type": "Organization"
+          }
+        },
+        "roles": [
+          "Learner"
+        ]
+      }
+    }
+  ]
+}
