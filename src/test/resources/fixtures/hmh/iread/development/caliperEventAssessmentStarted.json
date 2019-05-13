@@ -1,0 +1,38 @@
+{
+  "@context": "http://purl.imsglobal.org/ctx/caliper/v1p1",
+  "id": "urn:uuid:27734504-068d-4596-861c-2315be33a2a2",
+  "type": "AssessmentEvent",
+  "actor":{
+    "id":"urn:uuid:0f4fedbe-2227-415f-8553-40731a627171", //studentId
+    "type":"Person"
+  },
+  "action": "Started",
+  "object": {
+    "id": "urn:uuid:1050e852-5edb-4743-92d1-b53466de3a5f",
+    "type": "Attempt",
+    "assignee": "urn:uuid:0f4fedbe-2227-415f-8553-40731a627171", //studentId
+    "assignable": {
+      "id":"urn:uuid:c050e852-5edb-4743-92d1-b53466de3a5f", //partitionId, basically a new start for a student
+      "type": "Assessment"
+    },
+    "count": 1,
+    "dateCreated": "2016-11-15T10:05:00.000Z",
+    "startedAtTime": "2016-11-15T10:05:00.000Z",
+  },
+  "eventTime": "2016-11-15T10:15:00.000Z",
+  "edApp": "https://www.hmhco.com/IRead",
+  "membership":{
+    "id":"urn:uuid:randomGuidId",
+    "type":"Membership",
+    "organization":{
+      "id":"urn:uuid:ab570d90-3791-4048-a5ee-759657ddccef", //SchoolId
+      "type":"Organization",
+      "subOrganizationOf":{
+        "id":"urn:uuid:ea827de8-0ce9-4fe4-a28c-eb388bd9eb92", //DistrictId
+        "type":"Organization"
+      }
+    },
+    "roles":[ "Learner" ],
+    "status": "Active"
+  }
+}
