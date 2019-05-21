@@ -8,15 +8,15 @@
       "type": "GradeEvent",
       "id": "urn:uuid:{uuid is auto-generated}",
       "actor": {
-        "id": "urn:uuid:{uuid of the student who completed the assignment}",
-        "type": "Person"
+        "id": "urn:uuid:{uuid of the teacher who graded the assignment} | {software application that auto-graded the assignment}",
+        "type": "Person | SoftwareApplication"
       },
       "action": "Graded",
       "object": {
         "id": "urn:uuid:{uuid is auto-generated}",
         "type": "Attempt",
         "assignable": {
-          "id": "urn:uuid:{uuid of this assignment}",
+          "id": "urn:uuid:{uuid of this assignment (teacher)}",
           "type": "Assessment",
           "extensions": {
             "disciplineCode": "ED18_RLA"
@@ -33,7 +33,7 @@
         "attempt": "urn:uuid:{uuid is the same as object.id property, contained in this message}",
         "maxScore": 12,
         "scoreGiven": 6,
-        "scoredBy": "https://www.hmhco.com/AggPA"
+        "scoredBy": "urn:uuid:{uuid of the teacher who graded the assignment} | {software application that auto-graded the assignment}"
       },
       "eventTime": "2019-03-22T17:46:40.999Z",
       "edApp": "https://www.hmhco.com/AggPA",

@@ -8,7 +8,7 @@
       "type": "GradeEvent",
       "id": "urn:uuid:dc790a2d-124e-4b20-9f89-2bca87ea22d4",
       "actor": {
-        "id": "urn:uuid:d76d4cbe-0f12-4323-af07-e68566dcbcd4",
+        "id": "urn:uuid:7eba360f-5896-48d8-b8ce-23ad40892abd",
         "type": "Person"
       },
       "action": "Graded",
@@ -33,7 +33,7 @@
         "attempt": "urn:uuid:830b77b2-f4b3-4ac3-87b0-a4fef1d7c33e",
         "maxScore": 12,
         "scoreGiven": 6,
-        "scoredBy": "https://www.hmhco.com/AggPA"
+        "scoredBy": "urn:uuid:7eba360f-5896-48d8-b8ce-23ad40892abd"
       },
       "eventTime": "2019-03-22T17:46:40.999Z",
       "edApp": "https://www.hmhco.com/AggPA",
