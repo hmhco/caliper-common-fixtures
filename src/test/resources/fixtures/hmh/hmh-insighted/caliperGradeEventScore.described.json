@@ -33,10 +33,10 @@
         "attempt": "urn:uuid:{uuid is the same as object.id property, contained in this message}",
         "maxScore": 12,
         "scoreGiven": 6,
-        "scoredBy": "urn:uuid:{uuid of the teacher who graded the assignment} | {software application that auto-graded the assignment}"
+        "scoredBy": "urn:uuid:{uuid of the teacher who graded the assignment} | {software app, if auto-graded, including the platform (hmh1 | ed; https://www.hmhco.com/AggPA/one | https://www.hmhco.com/AggPA/ed)}"
       },
       "eventTime": "2019-03-22T17:46:40.999Z",
-      "edApp": "https://www.hmhco.com/AggPA",
+      "edApp": "{software app, including the platform (hmh1 | ed; https://www.hmhco.com/AggPA/one | https://www.hmhco.com/AggPA/ed)}",
       "group": {
         "id": "urn:uuid:{uuid of the class associated with the assignment}",
         "type": "CourseSection",
