@@ -36,7 +36,7 @@
         "scoredBy": "urn:uuid:7eba360f-5896-48d8-b8ce-23ad40892abd"
       },
       "eventTime": "2019-03-22T17:46:40.999Z",
-      "edApp": "https://www.hmhco.com/AggPA",
+      "edApp": "https://www.hmhco.com/AggPA/one",
       "group": {
         "id": "urn:uuid:dd1a3d98-5fba-466c-bff5-4eeab14672e0",
         "type": "CourseSection",
