@@ -1,0 +1,70 @@
+{
+  "@context": "http://purl.imsglobal.org/ctx/caliper/v1p1",
+  "id": "urn:uuid:8e54acfe-2978-4c79-80d7-3f58ca0573c3",
+  "type": "ViewEvent",
+  "actor": {
+    "id": "urn:uuid:ff7c53fd-9024-4d2d-8503-aa3da2cbc73e",
+    "type": "Person"
+  },
+  "action": "Viewed",
+  "object": {
+    "id": "http://rce.localhost/content/book/OPS/page0001.xhtml",
+    "type": "Frame",
+    "name": "Cover Page",
+    "dateCreated": "2019-06-05T14:23:14.220Z",
+    "extensions": {
+      "contentRootId": "9780358087762",
+      "contentRootType": "pubId",
+      "contentVersionId": 0,
+      "userRole": "student",
+      "contentItemId": "xhtml_page0001"
+    },
+    "isPartOf": {
+      "id": "http://rce.localhost/digitalresource/9780358087762",
+      "type": "DigitalResource",
+      "name": "Hero Academy 2019",
+      "isPartOf": {
+        "id": "NoProgrammeId",
+        "type": "DigitalResource",
+        "name": "NoProgramme"
+      },
+      "version": "1.0"
+    },
+    "index": 1
+  },
+  "eventTime": 1559744594221,
+  "edApp": {
+    "id": "http://rce.localhost/RCE",
+    "type": "SoftwareApplication",
+    "name": "RCE",
+    "extensions": { "offline": false }
+  },
+  "membership": {
+    "id": "http://rce.localhost/user/ff7c53fd-9024-4d2d-8503-aa3da2cbc73e/class/4444444",
+    "type": "Membership",
+    "organization": {
+      "id": "urn:uuid:48469971-7fa6-44d7-9847-5abf3f684113",
+      "type": "Organization",
+      "subOrganizationOf": {
+        "id": "urn:uuid:80b8ccf8-2996-4669-8dae-2772053d5176",
+        "type": "Organization"
+      }
+    },
+    "roles": ["Learner"],
+    "status": "Active"
+  },
+  "event": {
+    "@context": "http://purl.imsglobal.org/ctx/caliper/v1p1",
+    "id": "urn:uuid:3ea4e2b9-79f0-4a10-a859-2688cff3fc76",
+    "type": "Session",
+    "dateCreated": "2019-06-05T14:23:14.220Z",
+    "dateModified": "2019-06-05T14:23:14.220Z",
+    "extensions": {
+      "contentRootId": "9780358087762",
+      "contentRootType": "pubId",
+      "contentVersionId": 0,
+      "userRole": "student",
+      "contentItemId": "xhtml_page0001"
+    }
+  }
+}

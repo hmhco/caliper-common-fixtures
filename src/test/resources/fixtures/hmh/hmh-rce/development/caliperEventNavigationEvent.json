@@ -1,0 +1,75 @@
+{
+  "@context": "http://purl.imsglobal.org/ctx/caliper/v1p1",
+  "id": "urn:uuid:c942788b-aae8-4a15-8135-b5ec731a0fc3",
+  "type": "NavigationEvent",
+  "actor": {
+    "id": "urn:uuid:ff7c53fd-9024-4d2d-8503-aa3da2cbc73e",
+    "type": "Person"
+  },
+  "action": "NavigatedTo",
+  "object": {
+    "id": "http://rce.localhost/content/book/OPS/page0001.xhtml",
+    "type": "Frame",
+    "name": "Cover Page",
+    "dateCreated": "2019-06-05T14:17:34.739Z",
+    "extensions": {
+      "contentRootId": "9780358087762",
+      "contentRootType": "pubId",
+      "contentVersionId": 0,
+      "userRole": "student",
+      "contentItemId": "xhtml_page0001"
+    },
+    "isPartOf": {
+      "id": "http://rce.localhost/digitalresource/9780358087762",
+      "type": "DigitalResource",
+      "name": "Hero Academy 2019",
+      "isPartOf": {
+        "id": "NoProgrammeId",
+        "type": "DigitalResource",
+        "name": "NoProgramme"
+      },
+      "version": "1.0"
+    },
+    "index": 1
+  },
+  "eventTime": 1559744254740,
+  "referrer": {
+    "id": "http://rce.localhost/content/book/OPS/page0001.xhtml",
+    "type": "WebPage",
+    "name": "Cover Page"
+  },
+  "edApp": {
+    "id": "http://rce.localhost/RCE",
+    "type": "SoftwareApplication",
+    "name": "RCE",
+    "extensions": { "offline": false }
+  },
+  "membership": {
+    "id": "http://rce.localhost/user/ff7c53fd-9024-4d2d-8503-aa3da2cbc73e/class/4444444",
+    "type": "Membership",
+    "organization": {
+      "id": "urn:uuid:48469971-7fa6-44d7-9847-5abf3f684113",
+      "type": "Organization",
+      "subOrganizationOf": {
+        "id": "urn:uuid:80b8ccf8-2996-4669-8dae-2772053d5176",
+        "type": "Organization"
+      }
+    },
+    "roles": ["Learner"],
+    "status": "Active"
+  },
+  "event": {
+    "@context": "http://purl.imsglobal.org/ctx/caliper/v1p1",
+    "id": "urn:uuid:ce40dcf0-7098-42f9-b492-ded97b083beb",
+    "type": "Session",
+    "dateCreated": "2019-06-05T14:17:34.739Z",
+    "dateModified": "2019-06-05T14:17:34.739Z",
+    "extensions": {
+      "contentRootId": "9780358087762",
+      "contentRootType": "pubId",
+      "contentVersionId": 0,
+      "userRole": "student",
+      "contentItemId": "xhtml_page0001"
+    }
+  }
+}
