@@ -27,8 +27,7 @@
         "id": "NoProgrammeId",
         "type": "DigitalResource",
         "name": "NoProgramme"
-      },
-      "version": "1.0"
+      }
     }
   },
   "eventTime": 1559832073689,
