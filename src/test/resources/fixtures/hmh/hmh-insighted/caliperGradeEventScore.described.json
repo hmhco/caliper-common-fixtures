@@ -8,7 +8,7 @@
       "type": "GradeEvent",
       "id": "urn:uuid:{uuid is auto-generated}",
       "actor": {
-        "id": "urn:uuid:{uuid of the teacher who graded the assignment} | {software application that auto-graded the assignment}",
+        "id": "urn:uuid:{uuid of the teacher who graded the assignment} | {software app, if auto-graded, including the platform (hmh1 | ed; https://www.hmhco.com/AggPA/one | https://www.hmhco.com/AggPA/ed)}",
         "type": "Person | SoftwareApplication"
       },
       "action": "Graded",
