@@ -1,6 +1,6 @@
 {
   "@context": "http://purl.imsglobal.org/ctx/caliper/v1p1",
-  "id": "urn:uuid:675a4d52-a577-4802-b9ed-f682bbabdab6",
+  "id": "urn:uuid:9d13464b-e181-47fd-98cc-6071c7e618d2",
   "type": "ViewEvent",
   "actor": {
     "id": "urn:uuid:ff7c53fd-9024-4d2d-8503-aa3da2cbc73e",
@@ -8,16 +8,15 @@
   },
   "action": "Viewed",
   "object": {
-    "id": "http://rce.localhost/content/book/OPS/page0005.xhtml",
+    "id": "http://rce.localhost/content/book/OPS/page0002.xhtml",
     "type": "Frame",
-    "name": "Story Page 4",
-    "dateCreated": "2019-06-06T14:41:13.689Z",
+    "name": "Title Page",
     "extensions": {
       "contentRootId": "9780358087762",
       "contentRootType": "pubId",
       "contentVersionId": 0,
       "userRole": "student",
-      "contentItemId": "xhtml_page0005"
+      "contentItemId": "xhtml_page0002"
     },
     "isPartOf": {
       "id": "http://rce.localhost/digitalresource/9780358087762",
@@ -30,7 +29,7 @@
       }
     }
   },
-  "eventTime": 1559832073689,
+  "eventTime": "2019-06-07T09:30:04.379Z",
   "edApp": {
     "id": "http://rce.localhost/RCE",
     "type": "SoftwareApplication",
@@ -42,18 +41,14 @@
     "type": "Membership",
     "organization": {
       "id": "urn:uuid:48469971-7fa6-44d7-9847-5abf3f684113",
-      "type": "Organization",
-      "subOrganizationOf": {
-        "id": "urn:uuid:80b8ccf8-2996-4669-8dae-2772053d5176",
-        "type": "Organization"
-      }
+      "type": "Organization"
     },
     "roles": ["Learner"],
     "status": "Active"
   },
   "session": {
-    "id": "urn:uuid:2699befb-a757-4a9c-92be-a115ee1fa280",
+    "id": "urn:uuid:b79578cc-b6a1-4586-911f-e6919f2ed874",
     "type": "Session",
-    "startedAtTime": "2019-06-06T14:40:32.699Z"
+    "startedAtTime": "2019-06-07T09:28:43.318Z"
   }
 }
