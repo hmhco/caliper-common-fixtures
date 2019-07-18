@@ -16,8 +16,11 @@
         "id": "urn:uuid:830b77b2-f4b3-4ac3-87b0-a4fef1d7c33e",
         "type": "Attempt",
         "assignable": {
-          "id": "urn:uuid:376835ba-947a-47f3-a990-003c7eb11cfc",
+          "id": "urn:uuid:474df95d-40e9-454d-925b-ce7a1aa40823",
+          "isPartOf": "urn:uuid:376835ba-947a-47f3-a990-003c7eb11cfc",
           "type": "Assessment",
+          "name": "Online Lesson Assessment: Studying Geography",
+          "dateToSubmit": "2019-07-21T22:59:59.000Z",
           "extensions": {
             "disciplineCode": "ED18_RLA"
           },

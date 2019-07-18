@@ -16,8 +16,11 @@
         "id": "urn:uuid:{uuid is auto-generated}",
         "type": "Attempt",
         "assignable": {
-          "id": "urn:uuid:{uuid of this assignment (teacher)}",
+          "id": "urn:uuid:{activity id}",
+          "isPartOf": "urn:uuid:{assignment id (teacher)}",
           "type": "Assessment",
+          "name": "{assignment title}",
+          "dateToSubmit": "2019-07-21T22:59:59.000Z {assignment due date}",
           "extensions": {
             "disciplineCode": "ED18_RLA"
           },
