@@ -1,54 +1,73 @@
 {
-  "@context": "http://purl.imsglobal.org/ctx/caliper/v1p1",
-  "id": "urn:uuid:9d13464b-e181-47fd-98cc-6071c7e618d2",
-  "type": "ViewEvent",
-  "actor": {
-    "id": "urn:uuid:ff7c53fd-9024-4d2d-8503-aa3da2cbc73e",
-    "type": "Person"
-  },
-  "action": "Viewed",
-  "object": {
-    "id": "http://rce.localhost/content/book/OPS/page0002.xhtml",
-    "type": "Frame",
-    "name": "Title Page",
-    "extensions": {
-      "contentRootId": "9780358087762",
-      "contentRootType": "pubId",
-      "contentVersionId": 0,
-      "userRole": "student",
-      "contentItemId": "xhtml_page0002"
-    },
-    "isPartOf": {
-      "id": "http://rce.localhost/digitalresource/9780358087762",
-      "type": "DigitalResource",
-      "name": "Hero Academy 2019",
-      "isPartOf": {
-        "id": "NoProgrammeId",
-        "type": "DigitalResource",
-        "name": "NoProgramme"
+  "sensor": "http://rce.localhost/sensor/tools/rce",
+  "sendTime": "2019-08-09T13:46:51.900Z",
+  "dataVersion": "http://purl.imsglobal.org/ctx/caliper/v1p1",
+  "data": [
+    {
+      "@context": "http://purl.imsglobal.org/ctx/caliper/v1p1",
+      "id": "urn:uuid:21adf94c-5590-4d25-b6d7-511bbba1b3bd",
+      "type": "ViewEvent",
+      "actor": {
+        "id": "https://hmhco.com/ims/oneroster/v1p1/users/ff7c53fd-9024-4d2d-8503-aa3da2cbc73e",
+        "type": "Person"
+      },
+      "action": "Viewed",
+      "object": {
+        "id": "http://rce.localhost/content/book/OPS/s9ml/module_1opener/essential_question.xhtml",
+        "type": "Frame",
+        "name": "Essential\n                  Question",
+        "extensions": {
+          "contentRootId": "084cbb2fce005714e56bc502240ed1a9eab",
+          "contentRootType": "pubId",
+          "contentVersionId": 0,
+          "userRole": "student",
+          "contentItemId": "b4cf63a6afd147748efb3f68bfa2b349"
+        },
+        "isPartOf": {
+          "id": "http://rce.localhost/content/book/OPS/s9ml/module_1opener/essential_question.xhtml",
+          "type": "DigitalResource",
+          "name": "Opener: American Beginnings",
+          "isPartOf": {
+            "id": "http://rce.localhost/content/book/OPS/s9ml/module_1opener/essential_question.xhtml",
+            "type": "DigitalResource",
+            "name": "Module 1: American Beginnings",
+            "isPartOf": {
+              "id": "http://rce.localhost/digitalresource/084cbb2fce005714e56bc502240ed1a9eab",
+              "type": "DigitalResource",
+              "name": "SS AH 2017 NL HS ST",
+              "isPartOf": {
+                "id": "NoProgrammeId",
+                "type": "DigitalResource",
+                "name": "NoProgramme"
+              }
+            }
+          }
+        }
+      },
+      "eventTime": "2019-08-09T13:46:51.892Z",
+      "edApp": {
+        "id": "http://rce.localhost/rce",
+        "type": "SoftwareApplication",
+        "name": "rce",
+        "extensions": { "offline": false }
+      },
+      "group": {
+        "id": "https://hmhco.com/ims/oneroster/v1p1/orgs/48469971-7fa6-44d7-9847-5abf3f684113",
+        "type": "Group"
+      },
+      "membership": {
+        "id": "https://hmhco.com/ims/oneroster/v1p1/users/ff7c53fd-9024-4d2d-8503-aa3da2cbc73e/orgs/48469971-7fa6-44d7-9847-5abf3f684113/enrollments",
+        "type": "Membership",
+        "roles": ["Learner"]
+      },
+      "session": {
+        "id": "urn:uuid:def349df-c3a9-48b2-b7e4-a5334a769245",
+        "type": "Session",
+        "startedAtTime": "2019-08-09T13:41:30.653Z"
+      },
+      "extensions": {
+        "localtime": "Fri Aug 09 2019 14:46:51 GMT+0100 (Irish Standard Time)"
       }
     }
-  },
-  "eventTime": "2019-06-07T09:30:04.379Z",
-  "edApp": {
-    "id": "http://rce.localhost/RCE",
-    "type": "SoftwareApplication",
-    "name": "RCE",
-    "extensions": { "offline": false }
-  },
-  "membership": {
-    "id": "http://rce.localhost/user/ff7c53fd-9024-4d2d-8503-aa3da2cbc73e/school/48469971-7fa6-44d7-9847-5abf3f684113",
-    "type": "Membership",
-    "organization": {
-      "id": "urn:uuid:48469971-7fa6-44d7-9847-5abf3f684113",
-      "type": "Organization"
-    },
-    "roles": ["Learner"],
-    "status": "Active"
-  },
-  "session": {
-    "id": "urn:uuid:b79578cc-b6a1-4586-911f-e6919f2ed874",
-    "type": "Session",
-    "startedAtTime": "2019-06-07T09:28:43.318Z"
-  }
+  ]
 }
