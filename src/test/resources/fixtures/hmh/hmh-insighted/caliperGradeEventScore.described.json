@@ -19,10 +19,13 @@
           "id": "urn:uuid:{session id; aka activity ref id}",
           "isPartOf": {
             "id": "urn:uuid:{activity id; aka custom lesson id}",
+            "type":"DigitalResource",
             "isPartOf": {
               "id": "resource id; aka source object",
+              "type":"DigitalResource",
               "isPartOf": {
-                "id": "urn:uuid:{assignment id; aka teacher assignment ref id}"
+                "id": "urn:uuid:{assignment id; aka teacher assignment ref id}",
+                "type":"DigitalResource"
               }
             }
           },
