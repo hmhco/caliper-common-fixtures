@@ -1,0 +1,71 @@
+{
+  "sensor": "http://rce.localhost/sensor/tools/rce",
+  "sendTime": "2019-08-19T11:20:04.304Z",
+  "dataVersion": "http://purl.imsglobal.org/ctx/caliper/v1p1",
+  "data": [
+    {
+      "@context": "http://purl.imsglobal.org/ctx/caliper/v1p1",
+      "id": "urn:uuid:814fc39d-0c78-4bbf-bb02-039c4c14808e",
+      "type": "NavigationEvent",
+      "actor": "https://hmhco.com/ims/oneroster/v1p1/users/ff7c53fd-9024-4d2d-8503-aa3da2cbc73e",
+      "action": "NavigatedTo",
+      "object": {
+        "id": "http://rce.localhost/content/book/OPS/s9ml/module_1_lesson01/ancient_peoples_come_to_the_americas.xhtml",
+        "type": "Frame",
+        "name": "Ancient Peoples Come to the Americas",
+        "extensions": {
+          "contentRootId": "084cbb2fce005714e56bc502240ed1a9eab",
+          "contentRootType": "pubId",
+          "contentVersionId": 0,
+          "userRole": "student",
+          "contentItemId": "c946c4048ed346e1bb08e7033bd095d9"
+        },
+        "isPartOf": {
+          "id": "http://rce.localhost/content/book/OPS/s9ml/module_1_lesson01/lesson_opener.xhtml",
+          "type": "DigitalResource",
+          "name": "Lesson 1: Societies of the Americas to 1492",
+          "isPartOf": {
+            "id": "http://rce.localhost/content/book/OPS/s9ml/module_1opener/essential_question.xhtml",
+            "type": "DigitalResource",
+            "name": "Module 1: American Beginnings",
+            "isPartOf": {
+              "id": "http://rce.localhost/digitalresource/084cbb2fce005714e56bc502240ed1a9eab",
+              "type": "DigitalResource",
+              "name": "SS AH 2017 NL HS ST",
+              "isPartOf": {
+                "id": "I_13aaaaaa-aaaa-4aaa-a48a-978132891689",
+                "type": "DigitalResource",
+                "name": "American History"
+              }
+            }
+          }
+        }
+      },
+      "eventTime": "2019-08-19T11:20:04.303Z",
+      "referrer": {
+        "id": "http://rce.localhost/content/book/OPS/s9ml/module_1_lesson01/lesson_opener.xhtml",
+        "type": "WebPage",
+        "name": "Lesson Opener"
+      },
+      "edApp": {
+        "id": "http://rce.localhost/rce",
+        "type": "SoftwareApplication",
+        "extensions": { "offline": false }
+      },
+      "group": "https://hmhco.com/ims/oneroster/v1p1/orgs/48469971-7fa6-44d7-9847-5abf3f684113",
+      "membership": {
+        "id": "https://hmhco.com/ims/oneroster/v1p1/users/ff7c53fd-9024-4d2d-8503-aa3da2cbc73e/orgs/48469971-7fa6-44d7-9847-5abf3f684113/enrollments",
+        "type": "Membership",
+        "roles": ["Learner"]
+      },
+      "session": {
+        "id": "urn:uuid:c092e88c-4351-41d7-93fd-b2b41a18e228",
+        "type": "Session",
+        "startedAtTime": "2019-08-19T11:18:15.763Z"
+      },
+      "extensions": {
+        "localtime": "Mon Aug 19 2019 12:20:04 GMT+0100 (Irish Standard Time)"
+      }
+    }
+  ]
+}
