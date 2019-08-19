@@ -16,8 +16,19 @@
         "id": "urn:uuid:830b77b2-f4b3-4ac3-87b0-a4fef1d7c33e",
         "type": "Attempt",
         "assignable": {
-          "id": "urn:uuid:474df95d-40e9-454d-925b-ce7a1aa40823",
-          "isPartOf": "urn:uuid:376835ba-947a-47f3-a990-003c7eb11cfc",
+          "id": "urn:uuid:cb2954e9-8755-445a-8ca6-3299bfe66e2e",
+          "isPartOf": {
+            "id": "urn:uuid:474df95d-40e9-454d-925b-ce7a1aa40823",
+            "type":"DigitalResource",
+            "isPartOf": {
+              "id": "AGA_FL20E_LRN_G11U8M20L00_0001",
+              "type":"DigitalResource",
+              "isPartOf": {
+                "id": "urn:uuid:376835ba-947a-47f3-a990-003c7eb11cfc",
+                "type":"DigitalResource"
+              }
+            }
+          },
           "type": "Assessment",
           "name": "Online Lesson Assessment: Studying Geography",
           "dateToSubmit": "2019-07-21T22:59:59.000Z",
