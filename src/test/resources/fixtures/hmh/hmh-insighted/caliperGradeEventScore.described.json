@@ -16,8 +16,19 @@
         "id": "urn:uuid:{uuid is auto-generated}",
         "type": "Attempt",
         "assignable": {
-          "id": "urn:uuid:{activity id}",
-          "isPartOf": "urn:uuid:{assignment id (teacher)}",
+          "id": "urn:uuid:{session id; aka activity ref id}",
+          "isPartOf": {
+            "id": "urn:uuid:{activity id; aka custom lesson id}",
+            "type":"DigitalResource",
+            "isPartOf": {
+              "id": "resource id; aka source object",
+              "type":"DigitalResource",
+              "isPartOf": {
+                "id": "urn:uuid:{assignment id; aka teacher assignment ref id}",
+                "type":"DigitalResource"
+              }
+            }
+          },
           "type": "Assessment",
           "name": "{assignment title}",
           "dateToSubmit": "2019-07-21T22:59:59.000Z {assignment due date}",
