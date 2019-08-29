@@ -1,186 +1,55 @@
 {
-    "sensor": "http://rce.localhost/sensor/1",
-    "sendTime": "2019-06-10T14:53:11.813Z",
+    "sensor": "http://rce.localhost/sensor/rce",
+    "sendTime": "2019-08-19T11:20:04.304Z",
     "dataVersion": "http://purl.imsglobal.org/ctx/caliper/v1p1",
     "data": [
         {
             "@context": "http://purl.imsglobal.org/ctx/caliper/v1p1",
-            "id": "urn:uuid:099cbce3-bb2f-47f1-bb07-38b756a73901",
+            "id": "urn:uuid:814fc39d-0c78-4bbf-bb02-039c4c14808e",
             "type": "AssessmentItemEvent",
-            "actor": {
-                "@context": "http://purl.imsglobal.org/ctx/caliper/v1p1",
-                "id": "urn:uuid:ff7c53fd-9024-4d2d-8503-aa3da2cbc73e",
-                "type": "Person",
-                "name": null,
-                "description": null,
-                "dateCreated": null,
-                "dateModified": null,
-                "extensions": {}
-            },
+            "actor": "https://hmhco.com/ims/oneroster/v1p1/users/ff7c53fd-9024-4d2d-8503-aa3da2cbc73e",
             "action": "Completed",
             "object": {
-                "@context": "http://purl.imsglobal.org/ctx/caliper/v1p1",
-                "id": "data-uuid-e767f484ee4c4718a1cb05671100deb2",
+                "id": "data-uuid-e2a6e58e709f4b15b1246dcbe88c6068",
                 "type": "AssessmentItem",
-                "name": "CPL v2 Flip Cards",
-                "description": "CPL Flip Cards",
-                "keywords": [],
-                "isPartOf": null,
-                "extensions": {
-                    "assignmentId": null,
-                    "resourceId": null,
-                    "contentRootId": "080c58111f020b9418f824970ffd7bb5392",
-                    "contentRootType": "pubId",
-                    "contentVersionId": 0,
-                    "userRole": "student",
-                    "contentItemId": "d5763388b980473ebbfce7876b23e345"
-                },
-                "dateCreated": "2019-06-10T15:53:10.418Z",
-                "dateModified": "2019-06-10T15:53:10.418Z",
-                "datePublished": "2019-06-10T15:53:10.418Z",
-                "version": "1.0",
-                "dateToActivate": "2019-06-10T15:53:10.418Z",
-                "dateToShow": "2019-06-10T15:53:10.418Z",
-                "dateToStartOn": "2019-06-10T15:53:10.418Z",
-                "dateToSubmit": "2019-06-10T15:53:10.418Z",
-                "maxAttempts": 0,
-                "maxSubmits": 0,
-                "maxScore": 0
+                "name": "CPL v2 Short text table",
+                "description": "This is the widget CPL Short text table",
+                "dateCreated": "2019-08-29T11:19:14.988Z",
+                "dateModified": "2019-08-29T11:19:14.988Z",
+                "datePublished": "2019-08-29T11:19:14.988Z",
+                "dateToActivate": "2019-08-29T11:19:14.988Z",
+                "dateToShow": "2019-08-29T11:19:14.988Z",
+                "dateToStartOn": "2019-08-29T11:19:14.988Z",
+                "dateToSubmit": "2019-08-29T11:19:14.988Z",
+                "maxAttempts": 0
             },
-            "eventTime": "2019-06-10T14:53:11.812Z",
-            "generated": {},
-            "target": {
-                "@context": "http://purl.imsglobal.org/ctx/caliper/v1p1",
-                "id": "http://rce.localhost/content/book/OPS/s9ml/cards/el_uat_content_samp_011.xhtml",
-                "type": "Frame",
-                "name": "Flip Cards",
-                "description": null,
-                "dateCreated": null,
-                "dateModified": null,
-                "extensions": {
-                    "programId": null,
-                    "programName": null,
-                    "contentRootId": "080c58111f020b9418f824970ffd7bb5392",
-                    "contentRootType": "pubId",
-                    "contentVersionId": 0,
-                    "userRole": "student",
-                    "contentItemId": "d5763388b980473ebbfce7876b23e345"
-                },
-                "mediaType": null,
-                "creators": [],
-                "keywords": [],
-                "learningObjectives": [],
-                "isPartOf": {
-                    "@context": "http://purl.imsglobal.org/ctx/caliper/v1p1",
-                    "id": "http://rce.localhost/content/book/OPS/s9ml/cards/el_uat_content_samp_001.xhtml",
-                    "type": "DigitalResource",
-                    "name": "Module 1: QA Review",
-                    "description": null,
-                    "dateCreated": null,
-                    "dateModified": null,
-                    "extensions": {},
-                    "mediaType": null,
-                    "creators": [],
-                    "keywords": [],
-                    "learningObjectives": [],
-                    "isPartOf": {
-                        "@context": "http://purl.imsglobal.org/ctx/caliper/v1p1",
-                        "id": "http://rce.localhost/digitalresource/080c58111f020b9418f824970ffd7bb5392",
-                        "type": "DigitalResource",
-                        "name": "Experience Library Interaction QA Review",
-                        "description": null,
-                        "dateCreated": null,
-                        "dateModified": null,
-                        "extensions": {},
-                        "mediaType": null,
-                        "creators": [],
-                        "keywords": [],
-                        "learningObjectives": [],
-                        "isPartOf": {
-                            "@context": "http://purl.imsglobal.org/ctx/caliper/v1p1",
-                            "id": "NoProgrammeId",
-                            "type": "DigitalResource",
-                            "name": "NoProgramme",
-                            "description": null,
-                            "dateCreated": null,
-                            "dateModified": null,
-                            "extensions": {},
-                            "mediaType": null,
-                            "creators": [],
-                            "keywords": [],
-                            "learningObjectives": [],
-                            "isPartOf": {},
-                            "datePublished": null,
-                            "version": null
-                        },
-                        "datePublished": null,
-                        "version": null
-                    },
-                    "datePublished": null,
-                    "version": null
-                },
-                "datePublished": null,
-                "version": null,
-                "index": null
+            "eventTime": "2019-08-19T11:20:04.303Z",
+            "referrer": {
+                "id": "http://rce.localhost/content/book/OPS/s9ml/module_1_lesson01/lesson_opener.xhtml",
+                "type": "WebPage",
+                "name": "Lesson Opener"
             },
-            "referrer": {},
             "edApp": {
-                "@context": "http://purl.imsglobal.org/ctx/caliper/v1p1",
-                "id": "http://rce.localhost/RCE",
+                "id": "http://rce.localhost/rce",
                 "type": "SoftwareApplication",
-                "name": "RCE",
-                "description": null,
-                "dateCreated": null,
-                "dateModified": null,
                 "extensions": {
                     "offline": false
-                },
-                "version": null
+                }
             },
-            "group": {},
+            "group": "https://hmhco.com/ims/oneroster/v1p1/orgs/48469971-7fa6-44d7-9847-5abf3f684113",
             "membership": {
-                "@context": "http://purl.imsglobal.org/ctx/caliper/v1p1",
-                "id": "http://rce.localhost/user/ff7c53fd-9024-4d2d-8503-aa3da2cbc73e/school/48469971-7fa6-44d7-9847-5abf3f684113",
+                "id": "https://hmhco.com/ims/oneroster/v1p1/users/ff7c53fd-9024-4d2d-8503-aa3da2cbc73e/orgs/48469971-7fa6-44d7-9847-5abf3f684113/enrollments",
                 "type": "Membership",
-                "name": null,
-                "description": null,
-                "dateCreated": null,
-                "dateModified": null,
-                "extensions": {},
-                "member": {},
-                "organization": {
-                    "@context": "http://purl.imsglobal.org/ctx/caliper/v1p1",
-                    "id": "urn:uuid:48469971-7fa6-44d7-9847-5abf3f684113",
-                    "type": "Organization",
-                    "name": null,
-                    "description": null,
-                    "dateCreated": null,
-                    "dateModified": null,
-                    "extensions": {},
-                    "subOrganizationOf": {},
-                    "members": []
-                },
-                "roles": [
-                    "Learner"
-                ],
-                "status": "Active"
+                "roles": ["Learner"]
             },
             "session": {
-                "@context": "http://purl.imsglobal.org/ctx/caliper/v1p1",
-                "id": "urn:uuid:29f0d0a2-972e-4c57-8074-dc42ba5a2dd6",
+                "id": "urn:uuid:c092e88c-4351-41d7-93fd-b2b41a18e228",
                 "type": "Session",
-                "name": null,
-                "description": null,
-                "dateCreated": null,
-                "dateModified": null,
-                "extensions": {},
-                "user": {},
-                "startedAtTime": "2019-06-10T14:52:57.836Z",
-                "endedAtTime": null,
-                "duration": null
+                "startedAtTime": "2019-08-19T11:18:15.763Z"
             },
-            "federatedSession": {},
-            "extensions": {}
+            "extensions": {
+                "localtime": "Mon Aug 19 2019 12:20:04 GMT+0100 (Irish Standard Time)"
+            }
         }
     ]
 }
