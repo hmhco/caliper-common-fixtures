@@ -1,0 +1,32 @@
+{
+  "@context": "http://purl.imsglobal.org/ctx/caliper/v1p1",
+  "id": "urn:uuid:cd088ca7-c044-405c-bb41-0b2a8506f907",
+  "type": "ViewEvent",
+  "actor":{
+    "id":"urn:uuid:0f4fedbe-2227-415f-8553-40731a627171", //studentId
+    "type":"Person"
+  },
+  "action": "Viewed",
+  "object": {
+    "id": "https://hmhco.com/series/1/topic/7/activity/main_hall_outro",
+    "type": "DigitalResource",
+    "name": "Main hall outro activity",
+    "dateCreated": "2016-08-01T06:00:00.000Z"
+  },
+  "eventTime": "2016-11-15T10:15:00.000Z",
+  "edApp": "https://www.hmhco.com/IRead",
+  "membership":{
+    "id":"urn:uuid:randomGuidId",
+    "type":"Membership",
+    "organization":{
+      "id":"urn:uuid:ab570d90-3791-4048-a5ee-759657ddccef", //SchoolId
+      "type":"Organization",
+      "subOrganizationOf":{
+        "id":"urn:uuid:ea827de8-0ce9-4fe4-a28c-eb388bd9eb92", //DistrictId
+        "type":"Organization"
+      }
+    },
+    "roles":[ "Learner" ],
+    "status": "Active"
+  }
+}
