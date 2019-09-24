@@ -1,81 +1,79 @@
-[
-    {
-        "sensor": "http://rce.localhost/sensor/tools/rce",
-        "sendTime": "2019-08-29T14:11:04.285Z",
-        "dataVersion": "http://purl.imsglobal.org/ctx/caliper/v1p1",
-        "data": [
-            {
-                "@context": "http://purl.imsglobal.org/ctx/caliper/v1p1",
-                "id": "urn:uuid:1c1bd12a-b289-4410-9d67-dc966fca7427",
-                "type": "AssessmentEvent",
-                "actor": "https://hmhco.com/ims/oneroster/v1p1/users/ff7c53fd-9024-4d2d-8503-aa3da2cbc73e",
-                "action": "Started",
-                "object": {
-                    "id": "data-uuid-e2a6e58e709f4b15b1246dcbe88c6068",
-                    "type": "Assessment",
-                    "name": "CPL v2 Short text table",
-                    "description": "This is the widget CPL Short text table",
-                    "dateCreated": "2019-08-29T15:11:04.271Z",
-                    "dateModified": "2019-08-29T15:11:04.271Z",
-                    "datePublished": "2019-08-29T15:11:04.271Z",
-                    "extensions": {
-                        "contentRootId": "080c58111f020b9418f824970ffd7bb5392",
-                        "contentRootType": "pubId",
-                        "contentVersionId": 0,
-                        "userRole": "student",
-                        "contentItemId": "e48e0c50555249d8adec72c566953b2d"
-                    }
+{
+    "sensor": "http://rce.localhost/sensor/tools/rce",
+    "sendTime": "2019-08-29T14:11:04.285Z",
+    "dataVersion": "http://purl.imsglobal.org/ctx/caliper/v1p1",
+    "data": [
+        {
+            "@context": "http://purl.imsglobal.org/ctx/caliper/v1p1",
+            "id": "urn:uuid:1c1bd12a-b289-4410-9d67-dc966fca7427",
+            "type": "AssessmentEvent",
+            "actor": "https://hmhco.com/ims/oneroster/v1p1/users/ff7c53fd-9024-4d2d-8503-aa3da2cbc73e",
+            "action": "Started",
+            "object": {
+                "id": "data-uuid-e2a6e58e709f4b15b1246dcbe88c6068",
+                "type": "Assessment",
+                "name": "CPL v2 Short text table",
+                "description": "This is the widget CPL Short text table",
+                "dateCreated": "2019-08-29T15:11:04.271Z",
+                "dateModified": "2019-08-29T15:11:04.271Z",
+                "datePublished": "2019-08-29T15:11:04.271Z",
+                "extensions": {
+                    "contentRootId": "080c58111f020b9418f824970ffd7bb5392",
+                    "contentRootType": "pubId",
+                    "contentVersionId": 0,
+                    "userRole": "student",
+                    "contentItemId": "e48e0c50555249d8adec72c566953b2d"
+                }
+            },
+            "eventTime": "2019-08-29T14:11:04.283Z",
+            "target": {
+                "id": "http://rce.localhost/content/book/OPS/s9ml/cards/el_uat_content_samp_019.xhtml",
+                "type": "Frame",
+                "name": "Short Text Table",
+                "extensions": {
+                    "contentRootId": "080c58111f020b9418f824970ffd7bb5392",
+                    "contentRootType": "pubId",
+                    "contentVersionId": 0,
+                    "userRole": "student",
+                    "contentItemId": "e48e0c50555249d8adec72c566953b2d"
                 },
-                "eventTime": "2019-08-29T14:11:04.283Z",
-                "target": {
-                    "id": "http://rce.localhost/content/book/OPS/s9ml/cards/el_uat_content_samp_019.xhtml",
-                    "type": "Frame",
-                    "name": "Short Text Table",
-                    "extensions": {
-                        "contentRootId": "080c58111f020b9418f824970ffd7bb5392",
-                        "contentRootType": "pubId",
-                        "contentVersionId": 0,
-                        "userRole": "student",
-                        "contentItemId": "e48e0c50555249d8adec72c566953b2d"
-                    },
+                "isPartOf": {
+                    "id": "http://rce.localhost/content/book/OPS/s9ml/cards/el_uat_content_samp_001.xhtml",
+                    "type": "DigitalResource",
+                    "name": "Module 1: QA Review",
                     "isPartOf": {
-                        "id": "http://rce.localhost/content/book/OPS/s9ml/cards/el_uat_content_samp_001.xhtml",
+                        "id": "http://rce.localhost/digitalresource/080c58111f020b9418f824970ffd7bb5392",
                         "type": "DigitalResource",
-                        "name": "Module 1: QA Review",
+                        "name": "Experience Library Interaction QA Review",
                         "isPartOf": {
-                            "id": "http://rce.localhost/digitalresource/080c58111f020b9418f824970ffd7bb5392",
+                            "id": "NoProgrammeId",
                             "type": "DigitalResource",
-                            "name": "Experience Library Interaction QA Review",
-                            "isPartOf": {
-                                "id": "NoProgrammeId",
-                                "type": "DigitalResource",
-                                "name": "NoProgramme"
-                            }
+                            "name": "NoProgramme"
                         }
                     }
-                },
-                "edApp": {
-                    "id": "http://rce.localhost/rce",
-                    "type": "SoftwareApplication",
-                    "extensions": {
-                        "offline": false
-                    }
-                },
-                "group": "https://hmhco.com/ims/oneroster/v1p1/orgs/48469971-7fa6-44d7-9847-5abf3f684113",
-                "membership": {
-                    "id": "https://hmhco.com/ims/oneroster/v1p1/users/ff7c53fd-9024-4d2d-8503-aa3da2cbc73e/orgs/48469971-7fa6-44d7-9847-5abf3f684113/enrollments",
-                    "type": "Membership",
-                    "roles": ["Learner"]
-                },
-                "session": {
-                    "id": "urn:uuid:d82f3eb9-67fb-489b-94e6-8c8ac5bdf1e5",
-                    "type": "Session",
-                    "startedAtTime": "2019-08-29T13:47:16.076Z"
-                },
-                "extensions": {
-                    "localtime": "Thu Aug 29 2019 15:11:04 GMT+0100 (Irish Standard Time)"
                 }
+            },
+            "edApp": {
+                "id": "http://rce.localhost/rce",
+                "type": "SoftwareApplication",
+                "extensions": {
+                    "offline": false
+                }
+            },
+            "group": "https://hmhco.com/ims/oneroster/v1p1/orgs/48469971-7fa6-44d7-9847-5abf3f684113",
+            "membership": {
+                "id": "https://hmhco.com/ims/oneroster/v1p1/users/ff7c53fd-9024-4d2d-8503-aa3da2cbc73e/orgs/48469971-7fa6-44d7-9847-5abf3f684113/enrollments",
+                "type": "Membership",
+                "roles": ["Learner"]
+            },
+            "session": {
+                "id": "urn:uuid:d82f3eb9-67fb-489b-94e6-8c8ac5bdf1e5",
+                "type": "Session",
+                "startedAtTime": "2019-08-29T13:47:16.076Z"
+            },
+            "extensions": {
+                "localtime": "Thu Aug 29 2019 15:11:04 GMT+0100 (Irish Standard Time)"
             }
-        ]
-    }
-]
+        }
+    ]
+}
